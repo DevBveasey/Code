@@ -1,0 +1,9 @@
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\bin\Debug\TableOfSquaresGUI.exe.config
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\bin\Debug\TableOfSquaresGUI.exe
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\bin\Debug\TableOfSquaresGUI.pdb
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\obj\Debug\TableOfSquaresGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\obj\Debug\TableOfSquaresGUI.Form1.resources
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\obj\Debug\TableOfSquaresGUI.Properties.Resources.resources
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\obj\Debug\TableOfSquaresGUI.csproj.GenerateResource.Cache
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\obj\Debug\TableOfSquaresGUI.exe
+E:\Chapter 5\TableOfSquaresGUI\TableOfSquaresGUI\obj\Debug\TableOfSquaresGUI.pdb

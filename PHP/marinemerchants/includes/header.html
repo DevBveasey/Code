@@ -1,0 +1,115 @@
+<?php
+/*
+ * - Marine Merchants
+ * - AUTHOR:Brandon Veasey
+ * - PROJECT: Final
+ * - DATE: 11/15/2017
+ * - SCRIPT: header.html
+*/
+// Start output buffering:
+ob_start();
+
+// Initialize a session if no session exist:
+if(!isset($_SESSION['cust_id']))
+{
+  session_start();
+}
+require ('../../connect_marinemerchants.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="includes/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title><?php echo (isset($page_title)) ? $page_title : 'Welcome!'; ?></title>
+</head>
+<body>
+<div class="navbar" id="head">
+  <a id="home" href="index.php">Marine Merchants <i class="fa fa-anchor" aria-hidden="true"></i></a>
+  <a href="view_cart.php">Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+  <a href="help.php">Help</a>
+  <?php //account link toggel
+    if(isset($_SESSION['cust_id']))
+    {
+      echo '
+          <div class="dropdown">
+          <button class="dropbtn">Account 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#myorders">My Orders</a>
+            <a href="change_password.php">Change Password</a>
+            <a href="edit_user.php?cid='.$_SESSION['cust_id'].'">Edit Account</a>
+          </div><!-- end of dropdown content -->
+        </div> <!-- end of dropdown -->
+        ';
+    }?>
+  <?php	//login/logout link toggel
+    if(isset($_SESSION['cust_id']))
+    {
+    echo '<a href="logout.php">Logout</a>';
+    }else
+    {
+    echo '<a href="login.php">Login</a>';
+    }?>
+  <div class="dropdown">
+    <button class="dropbtn">Shop by Department 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="view_products.php">All Products</a>
+      <?php
+        $q = "SELECT catagory_id, catagory_name FROM catagorys ORDER BY catagory_id ASC";
+        $r = mysqli_query ($dbc, $q);
+        if (mysqli_num_rows($r) > 0) 
+        {
+          while ($row = mysqli_fetch_array ($r, MYSQLI_NUM))
+          {
+            echo '<a href="view_products.php?cid=' . $row[0] . '&s=E&p=E">'.$row[1].'</a>';
+          }
+        } else 
+        {
+          echo '<a href="#nocategorys">Please add a catagory!</a>';
+        }
+      ?> 
+    </div><!-- end of dropdown content -->
+  </div> <!-- end of dropdown -->
+
+<?php //admin dropdown link toggel
+    if(isset($_SESSION['cust_id']))
+    {
+      $customer =$_SESSION['cust_id'];
+      $q = "SELECT cust_id, user_level FROM customers WHERE cust_id = $customer";
+      $r = mysqli_query ($dbc, $q);
+      if (mysqli_num_rows($r) == 1)
+      {
+        $row = mysqli_fetch_array ($r, MYSQLI_NUM);
+        if($row[1] == 1)
+        {
+          echo '
+          <div class="dropdown">
+          <button class="dropbtn">ADMIN 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="add_product.php">Add Product</a>
+            <a href="#user">Manage Users</a>
+            <a href="#Products">Manage Products</a>
+            <a href="#orders">Manage Orders</a>
+          </div><!-- end of dropdown content -->
+        </div> <!-- end of dropdown -->
+        ';
+        }
+        
+        
+      }
+    }
+?>
+  
+</div><!-- end of navbar -->
+
+<div class="wrapper">
+	<!-- start page content -->

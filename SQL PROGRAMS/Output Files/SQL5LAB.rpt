@@ -1,0 +1,763 @@
+﻿
+
+-- 1.
+
+ORDER_NUM ORDER_DATE CUSTOMER_NUM CUSTOMER_NAME
+--------- ---------- ------------ -----------------------------------
+51608     2015-10-12 126          Toys Galore                        
+51610     2015-10-12 334          The Everything Shop                
+51613     2015-10-13 386          Johnson's Department Store         
+51614     2015-10-13 260          Brookings Direct                   
+51617     2015-10-15 586          Almondton General Store            
+51619     2015-10-15 126          Toys Galore                        
+51623     2015-10-15 586          Almondton General Store            
+51625     2015-10-16 796          Unique Gifts                       
+51626     2015-10-16 900          Classic Toys                       
+51627     2015-10-17 440          Grove Historical Museum Store      
+51628     2015-10-17 903          Little People Gifts                
+51629     2015-10-17 260          Brookings Direct                   
+51630     2015-10-18 665          Cricket Gift Shop                  
+51631     2015-10-18 713          Cress Store                        
+51632     2015-10-19 902          The Toy Store                      
+51633     2015-10-19 126          Toys Galore                        
+51634     2015-10-19 901          Moore Gifts                        
+51635     2015-10-19 502          Cards and More                     
+51636     2015-10-20 899          Toddler Toys                       
+51637     2015-10-20 334          The Everything Shop                
+
+(20 row(s) affected)
+
+-- 2.
+
+ORDER_NUM ORDER_DATE CUSTOMER_NUM CUSTOMER_NAME
+--------- ---------- ------------ -----------------------------------
+51617     2015-10-15 586          Almondton General Store            
+51619     2015-10-15 126          Toys Galore                        
+51623     2015-10-15 586          Almondton General Store            
+
+(3 row(s) affected)
+
+-- 3. 
+
+ORDER_NUM ORDER_DATE ITEM_NUM NUM_ORDERED QUOTED_PRICE                            TOTAL_COST
+--------- ---------- -------- ----------- --------------------------------------- ---------------------------------------
+51608     2015-10-12 CD33     5           86.99                                   434.95
+51610     2015-10-12 KL78     25          10.95                                   273.75
+51610     2015-10-12 TR40     10          13.99                                   139.90
+51613     2015-10-13 DL51     5           104.95                                  524.75
+51614     2015-10-13 FD11     1           124.95                                  124.95
+51617     2015-10-15 NL89     4           115.99                                  463.96
+51617     2015-10-15 TW35     3           116.95                                  350.85
+51619     2015-10-15 FD11     2           121.95                                  243.90
+51623     2015-10-15 DR67     5           29.95                                   149.75
+51623     2015-10-15 FH24     12          36.95                                   443.40
+51623     2015-10-15 KD34     10          13.10                                   131.00
+51625     2015-10-16 MT03     8           45.79                                   366.32
+51626     2015-10-16 WD16     1           45.95                                   45.95
+51626     2015-10-16 ZZ77     2           17.99                                   35.98
+51627     2015-10-17 AQ22     2           74.79                                   149.58
+51628     2015-10-17 EL33     1           120.25                                  120.25
+51628     2015-10-17 MV99     1           20.25                                   20.25
+51628     2015-10-17 WD16     1           44.95                                   44.95
+51628     2015-10-17 ZZ77     1           14.99                                   14.99
+51629     2015-10-17 AQ22     2           75.99                                   151.98
+51630     2015-10-18 EL33     1           125.25                                  125.25
+51631     2015-10-18 MV99     2           21.25                                   42.50
+51631     2015-10-18 ZZ77     2           15.99                                   31.98
+51632     2015-10-19 WD16     1           49.95                                   49.95
+51633     2015-10-19 CD33     1           83.49                                   83.49
+51633     2015-10-19 KD34     1           12.95                                   12.95
+51633     2015-10-19 TR40     2           10.99                                   21.98
+51634     2015-10-19 AH74     1           22.99                                   22.99
+51635     2015-10-19 KL78     3           8.95                                    26.85
+51635     2015-10-19 TR40     3           10.99                                   32.97
+
+(30 row(s) affected)
+
+-- 4.
+
+CUSTOMER_NUM CUSTOMER_NAME
+------------ -----------------------------------
+126          Toys Galore                        
+586          Almondton General Store            
+
+(2 row(s) affected)
+
+-- 5.
+
+CUSTOMER_NUM CUSTOMER_NAME
+------------ -----------------------------------
+126          Toys Galore                        
+586          Almondton General Store            
+
+(2 row(s) affected)
+
+-- 6.
+
+CUSTOMER_NUM CUSTOMER_NAME
+------------ -----------------------------------
+260          Brookings Direct                   
+334          The Everything Shop                
+386          Johnson's Department Store         
+440          Grove Historical Museum Store      
+502          Cards and More                     
+665          Cricket Gift Shop                  
+713          Cress Store                        
+796          Unique Gifts                       
+824          Kline's                            
+893          All Season Gifts                   
+899          Toddler Toys                       
+900          Classic Toys                       
+901          Moore Gifts                        
+902          The Toy Store                      
+903          Little People Gifts                
+
+(15 row(s) affected)
+
+-- 7.
+
+ORDER_NUM ORDER_DATE ITEM_NUM DESCRIPTION                    CATEGORY
+--------- ---------- -------- ------------------------------ --------
+51608     2015-10-12 CD33     Wood Block Set (48 piece)      TOY
+51610     2015-10-12 KL78     Pick Up Sticks                 GME
+51610     2015-10-12 TR40     Tic Tac Toe                    GME
+51613     2015-10-13 DL51     Classic Railway Set            TOY
+51614     2015-10-13 FD11     Rocking Horse                  TOY
+51617     2015-10-15 NL89     Wood Block Set (62 piece)      TOY
+51617     2015-10-15 TW35     Fire Engine                    TOY
+51619     2015-10-15 FD11     Rocking Horse                  TOY
+51623     2015-10-15 DR67     Giant Star Brain Teaser        PZL
+51623     2015-10-15 FH24     Puzzle Gift Set                PZL
+51623     2015-10-15 KD34     Pentominoes Brain Teaser       PZL
+51625     2015-10-16 MT03     Zauberkasten Brain Teaser      PZL
+51626     2015-10-16 WD16     Stack'em Tower                 PZL
+51626     2015-10-16 ZZ77     Pin The Tail                   GME
+51627     2015-10-17 AQ22     Race Car                       TOY
+51628     2015-10-17 EL33     Army Tank                      TOY
+51628     2015-10-17 MV99     Lincoln Log Set                GME
+51628     2015-10-17 WD16     Stack'em Tower                 PZL
+51628     2015-10-17 ZZ77     Pin The Tail                   GME
+51629     2015-10-17 AQ22     Race Car                       TOY
+51630     2015-10-18 EL33     Army Tank                      TOY
+51631     2015-10-18 MV99     Lincoln Log Set                GME
+51631     2015-10-18 ZZ77     Pin The Tail                   GME
+51632     2015-10-19 WD16     Stack'em Tower                 PZL
+51633     2015-10-19 CD33     Wood Block Set (48 piece)      TOY
+51633     2015-10-19 KD34     Pentominoes Brain Teaser       PZL
+51633     2015-10-19 TR40     Tic Tac Toe                    GME
+51634     2015-10-19 AH74     Patience                       GME
+51635     2015-10-19 KL78     Pick Up Sticks                 GME
+51635     2015-10-19 TR40     Tic Tac Toe                    GME
+51636     2015-10-20 NL89     Wood Block Set (62 piece)      TOY
+51637     2015-10-20 DR67     Giant Star Brain Teaser        PZL
+51637     2015-10-20 EL33     Army Tank                      TOY
+
+(33 row(s) affected)
+
+-- 8.
+
+ORDER_NUM ORDER_DATE ITEM_NUM DESCRIPTION                    CATEGORY
+--------- ---------- -------- ------------------------------ --------
+51610     2015-10-12 KL78     Pick Up Sticks                 GME
+51610     2015-10-12 TR40     Tic Tac Toe                    GME
+51626     2015-10-16 ZZ77     Pin The Tail                   GME
+51628     2015-10-17 MV99     Lincoln Log Set                GME
+51628     2015-10-17 ZZ77     Pin The Tail                   GME
+51631     2015-10-18 MV99     Lincoln Log Set                GME
+51631     2015-10-18 ZZ77     Pin The Tail                   GME
+51633     2015-10-19 TR40     Tic Tac Toe                    GME
+51634     2015-10-19 AH74     Patience                       GME
+51635     2015-10-19 KL78     Pick Up Sticks                 GME
+51635     2015-10-19 TR40     Tic Tac Toe                    GME
+51623     2015-10-15 DR67     Giant Star Brain Teaser        PZL
+51623     2015-10-15 FH24     Puzzle Gift Set                PZL
+51623     2015-10-15 KD34     Pentominoes Brain Teaser       PZL
+51625     2015-10-16 MT03     Zauberkasten Brain Teaser      PZL
+51626     2015-10-16 WD16     Stack'em Tower                 PZL
+51628     2015-10-17 WD16     Stack'em Tower                 PZL
+51632     2015-10-19 WD16     Stack'em Tower                 PZL
+51633     2015-10-19 KD34     Pentominoes Brain Teaser       PZL
+51637     2015-10-20 DR67     Giant Star Brain Teaser        PZL
+51608     2015-10-12 CD33     Wood Block Set (48 piece)      TOY
+51613     2015-10-13 DL51     Classic Railway Set            TOY
+51614     2015-10-13 FD11     Rocking Horse                  TOY
+51617     2015-10-15 NL89     Wood Block Set (62 piece)      TOY
+51617     2015-10-15 TW35     Fire Engine                    TOY
+51619     2015-10-15 FD11     Rocking Horse                  TOY
+51627     2015-10-17 AQ22     Race Car                       TOY
+51628     2015-10-17 EL33     Army Tank                      TOY
+51629     2015-10-17 AQ22     Race Car                       TOY
+51630     2015-10-18 EL33     Army Tank                      TOY
+51633     2015-10-19 CD33     Wood Block Set (48 piece)      TOY
+51636     2015-10-20 NL89     Wood Block Set (62 piece)      TOY
+51637     2015-10-20 EL33     Army Tank                      TOY
+
+(33 row(s) affected)
+
+-- 9.
+
+REP_NUM LAST_NAME       FIRST_NAME
+------- --------------- ---------------
+15      Campos          Rafael         
+30      Gradey          Megan          
+75      Lowe            Samuel         
+
+(3 row(s) affected)
+
+-- 10.
+
+REP_NUM LAST_NAME       FIRST_NAME
+------- --------------- ---------------
+15      Campos          Rafael         
+30      Gradey          Megan          
+75      Lowe            Samuel         
+
+(3 row(s) affected)
+
+-- 11.
+
+CUSTOMER_NUM CUSTOMER_NAME                       DESCRIPTION
+------------ ----------------------------------- ------------------------------
+260          Brookings Direct                    Rocking Horse                 
+126          Toys Galore                         Rocking Horse                 
+
+(2 row(s) affected)
+
+-- 12.
+
+ITEM_NUM DESCRIPTION                    CATEGORY ITEM_NUM DESCRIPTION                    CATEGORY
+-------- ------------------------------ -------- -------- ------------------------------ --------
+AH74     Patience                       GME      BR23     Skittles                       GME
+AH74     Patience                       GME      DW23     Mancala                        GME
+AH74     Patience                       GME      KA12     Cribbage Set                   GME
+AH74     Patience                       GME      KL78     Pick Up Sticks                 GME
+AH74     Patience                       GME      MV99     Lincoln Log Set                GME
+AH74     Patience                       GME      TR40     Tic Tac Toe                    GME
+AH74     Patience                       GME      ZZ77     Pin The Tail                   GME
+BR23     Skittles                       GME      DW23     Mancala                        GME
+BR23     Skittles                       GME      KA12     Cribbage Set                   GME
+BR23     Skittles                       GME      KL78     Pick Up Sticks                 GME
+BR23     Skittles                       GME      MV99     Lincoln Log Set                GME
+BR23     Skittles                       GME      TR40     Tic Tac Toe                    GME
+BR23     Skittles                       GME      ZZ77     Pin The Tail                   GME
+DW23     Mancala                        GME      KA12     Cribbage Set                   GME
+DW23     Mancala                        GME      KL78     Pick Up Sticks                 GME
+DW23     Mancala                        GME      MV99     Lincoln Log Set                GME
+DW23     Mancala                        GME      TR40     Tic Tac Toe                    GME
+DW23     Mancala                        GME      ZZ77     Pin The Tail                   GME
+KA12     Cribbage Set                   GME      KL78     Pick Up Sticks                 GME
+KA12     Cribbage Set                   GME      MV99     Lincoln Log Set                GME
+KA12     Cribbage Set                   GME      TR40     Tic Tac Toe                    GME
+KA12     Cribbage Set                   GME      ZZ77     Pin The Tail                   GME
+KL78     Pick Up Sticks                 GME      MV99     Lincoln Log Set                GME
+KL78     Pick Up Sticks                 GME      TR40     Tic Tac Toe                    GME
+KL78     Pick Up Sticks                 GME      ZZ77     Pin The Tail                   GME
+MV99     Lincoln Log Set                GME      TR40     Tic Tac Toe                    GME
+MV99     Lincoln Log Set                GME      ZZ77     Pin The Tail                   GME
+TR40     Tic Tac Toe                    GME      ZZ77     Pin The Tail                   GME
+MT03     Zauberkasten Brain Teaser      PZL      WD16     Stack'em Tower                 PZL
+KD34     Pentominoes Brain Teaser       PZL      MT03     Zauberkasten Brain Teaser      PZL
+KD34     Pentominoes Brain Teaser       PZL      WD16     Stack'em Tower                 PZL
+DR67     Giant Star Brain Teaser        PZL      FH24     Puzzle Gift Set                PZL
+DR67     Giant Star Brain Teaser        PZL      KD34     Pentominoes Brain Teaser       PZL
+DR67     Giant Star Brain Teaser        PZL      MT03     Zauberkasten Brain Teaser      PZL
+DR67     Giant Star Brain Teaser        PZL      WD16     Stack'em Tower                 PZL
+FH24     Puzzle Gift Set                PZL      KD34     Pentominoes Brain Teaser       PZL
+FH24     Puzzle Gift Set                PZL      MT03     Zauberkasten Brain Teaser      PZL
+FH24     Puzzle Gift Set                PZL      WD16     Stack'em Tower                 PZL
+EL33     Army Tank                      TOY      FD11     Rocking Horse                  TOY
+EL33     Army Tank                      TOY      NL89     Wood Block Set (62 piece)      TOY
+EL33     Army Tank                      TOY      TW35     Fire Engine                    TOY
+FD11     Rocking Horse                  TOY      NL89     Wood Block Set (62 piece)      TOY
+FD11     Rocking Horse                  TOY      TW35     Fire Engine                    TOY
+CD33     Wood Block Set (48 piece)      TOY      DL51     Classic Railway Set            TOY
+CD33     Wood Block Set (48 piece)      TOY      EL33     Army Tank                      TOY
+CD33     Wood Block Set (48 piece)      TOY      FD11     Rocking Horse                  TOY
+CD33     Wood Block Set (48 piece)      TOY      NL89     Wood Block Set (62 piece)      TOY
+CD33     Wood Block Set (48 piece)      TOY      TW35     Fire Engine                    TOY
+DL51     Classic Railway Set            TOY      EL33     Army Tank                      TOY
+DL51     Classic Railway Set            TOY      FD11     Rocking Horse                  TOY
+DL51     Classic Railway Set            TOY      NL89     Wood Block Set (62 piece)      TOY
+DL51     Classic Railway Set            TOY      TW35     Fire Engine                    TOY
+AQ22     Race Car                       TOY      CD33     Wood Block Set (48 piece)      TOY
+AQ22     Race Car                       TOY      DL51     Classic Railway Set            TOY
+AQ22     Race Car                       TOY      EL33     Army Tank                      TOY
+AQ22     Race Car                       TOY      FD11     Rocking Horse                  TOY
+AQ22     Race Car                       TOY      NL89     Wood Block Set (62 piece)      TOY
+AQ22     Race Car                       TOY      TW35     Fire Engine                    TOY
+NL89     Wood Block Set (62 piece)      TOY      TW35     Fire Engine                    TOY
+
+(59 row(s) affected)
+
+-- 13.
+
+ORDER_NUM ORDER_DATE CUSTOMER_NAME
+--------- ---------- -----------------------------------
+51613     2015-10-13 Johnson's Department Store         
+
+(1 row(s) affected)
+
+-- 14.
+
+ORDER_NUM ORDER_DATE DESCRIPTION
+--------- ---------- ------------------------------
+51617     2015-10-15 Fire Engine                   
+
+(1 row(s) affected)
+
+-- 15.
+
+ORDER_NUM ORDER_DATE
+--------- ----------
+51617     2015-10-15
+51623     2015-10-15
+
+(2 row(s) affected)
+
+-- 16.
+
+ORDER_NUM ORDER_DATE
+--------- ----------
+51617     2015-10-15
+
+(1 row(s) affected)
+
+-- 17.
+
+ORDER_NUM ORDER_DATE
+--------- ----------
+51623     2015-10-15
+
+(1 row(s) affected)
+
+-- 18.
+
+ITEM_NUM DESCRIPTION                    PRICE                                   CATEGORY
+-------- ------------------------------ --------------------------------------- --------
+AQ22     Race Car                       79.79                                   TOY
+CD33     Wood Block Set (48 piece)      89.49                                   TOY
+DL51     Classic Railway Set            107.95                                  TOY
+EL33     Army Tank                      125.25                                  TOY
+FD11     Rocking Horse                  124.95                                  TOY
+NL89     Wood Block Set (62 piece)      119.75                                  TOY
+TW35     Fire Engine                    118.95                                  TOY
+
+(7 row(s) affected)
+
+-- 19.
+
+ITEM_NUM DESCRIPTION                    ON_HAND     CATEGORY ORDER_NUM NUM_ORDERED
+-------- ------------------------------ ----------- -------- --------- -----------
+AH74     Patience                       9           GME      51634     1
+AQ22     Race Car                       24          TOY      51627     2
+AQ22     Race Car                       24          TOY      51629     2
+CD33     Wood Block Set (48 piece)      36          TOY      51633     1
+CD33     Wood Block Set (48 piece)      36          TOY      51608     5
+DL51     Classic Railway Set            12          TOY      51613     5
+DR67     Giant Star Brain Teaser        24          PZL      51623     5
+EL33     Army Tank                      10          TOY      51630     1
+EL33     Army Tank                      10          TOY      51628     1
+FD11     Rocking Horse                  8           TOY      51614     1
+FD11     Rocking Horse                  8           TOY      51619     2
+FH24     Puzzle Gift Set                65          PZL      51623     12
+KD34     Pentominoes Brain Teaser       60          PZL      51623     10
+KD34     Pentominoes Brain Teaser       60          PZL      51633     1
+KL78     Pick Up Sticks                 110         GME      51635     3
+KL78     Pick Up Sticks                 110         GME      51610     25
+MT03     Zauberkasten Brain Teaser      45          PZL      51625     8
+MV99     Lincoln Log Set                16          GME      51628     1
+MV99     Lincoln Log Set                16          GME      51631     2
+NL89     Wood Block Set (62 piece)      32          TOY      51617     4
+TR40     Tic Tac Toe                    75          GME      51610     10
+TR40     Tic Tac Toe                    75          GME      51635     3
+TR40     Tic Tac Toe                    75          GME      51633     2
+TW35     Fire Engine                    30          TOY      51617     3
+WD16     Stack'em Tower                 36          PZL      51626     1
+WD16     Stack'em Tower                 36          PZL      51628     1
+WD16     Stack'em Tower                 36          PZL      51632     1
+ZZ77     Pin The Tail                   48          GME      51628     1
+ZZ77     Pin The Tail                   48          GME      51631     2
+ZZ77     Pin The Tail                   48          GME      51626     2
+
+(30 row(s) affected)
+
+-- 20.
+
+RESERVATION_ID TRIP_ID     CUSTOMER_NUM LAST_NAME
+-------------- ----------- ------------ ------------------------------
+1600031        5           130          Ashford                       
+1600024        38          121          Bretton-Borak                 
+1600016        11          121          Bretton-Borak                 
+1600026        12          126          Brown                         
+1600018        38          126          Brown                         
+1600019        25          124          Busa                          
+1600020        28          124          Busa                          
+1600032        42          128          Cannon                        
+1600009        38          109          Caron                         
+1600014        12          119          Chau                          
+1600022        21          119          Chau                          
+1600029        4           120          Gernowski                     
+1600015        10          120          Gernowski                     
+1600004        26          104          Goff                          
+1600030        15          104          Goff                          
+1600017        39          122          Hefferson                     
+1600021        32          112          Jones                         
+1600003        28          103          Kasuma                        
+1600007        22          107          Marchand                      
+1600005        39          105          McLean                        
+1600035        19          129          Miner                         
+1600006        32          106          Morontoia                     
+1600013        8           116          Murakami                      
+1600001        40          101          Northfold                     
+1600002        21          101          Northfold                     
+1600033        9           101          Northfold                     
+1600010        2           102          Ocean                         
+1600011        3           102          Ocean                         
+1600025        38          125          Peterson                      
+1600008        28          108          Rulf                          
+1600012        1           115          Vaccari                       
+1600036        46          115          Vaccari                       
+1600037        31          127          Wells                         
+1600034        43          131          Yang                          
+
+(34 row(s) affected)
+
+-- 21.
+
+RESERVATION_ID TRIP_ID     NUM_PERSONS FIRST_NAME                     LAST_NAME
+-------------- ----------- ----------- ------------------------------ ------------------------------
+1600004        26          4           Ryan                           Goff                          
+1600030        15          6           Ryan                           Goff                          
+
+(2 row(s) affected)
+
+-- 22.
+
+TRIP_NAME                                                                   FIRST_NAME      LAST_NAME
+--------------------------------------------------------------------------- --------------- ---------------
+Mt Ascutney - North Peak                                                    Miles           Abrams         
+Long Pond                                                                   Miles           Abrams         
+McLennan Reservation Hike                                                   Miles           Abrams         
+
+(3 row(s) affected)
+
+-- 23.
+
+TRIP_NAME                                                                   TYPE                 FIRST_NAME      LAST_NAME
+--------------------------------------------------------------------------- -------------------- --------------- ---------------
+Bradbury Mountain Ride                                                      Biking               Rita            Boyers         
+Cadillac Mountain Ride                                                      Biking               Rita            Boyers         
+Mount Battie Ride                                                           Biking               Rita            Boyers         
+Westfield River Loop                                                        Biking               Rita            Boyers         
+
+(4 row(s) affected)
+
+-- 24.
+
+LAST_NAME                      TRIP_NAME                                                                   START_LOCATION                                     TRIP_DATE
+------------------------------ --------------------------------------------------------------------------- -------------------------------------------------- ----------
+Gernowski                      Mt. Cardigan - Firescrew                                                    Orange                                             2016-07-23
+Bretton-Borak                  Chocorua Lake Tour                                                          Tamworth                                           2016-07-23
+
+(2 row(s) affected)
+
+-- 25.
+
+RESERVATION_ID TRIP_ID     TRIP_DATE
+-------------- ----------- ----------
+1600007        22          2016-07-09
+1600014        12          2016-10-01
+1600019        25          2016-08-29
+1600026        12          2016-10-01
+1600029        4           2016-09-19
+1600031        5           2016-05-02
+1600034        43          2016-10-04
+
+(7 row(s) affected)
+
+-- 26.
+
+RESERVATION_ID TRIP_ID     TRIP_DATE
+-------------- ----------- ----------
+1600007        22          2016-07-09
+1600014        12          2016-10-01
+1600019        25          2016-08-29
+1600026        12          2016-10-01
+1600029        4           2016-09-19
+1600031        5           2016-05-02
+1600034        43          2016-10-04
+
+(7 row(s) affected)
+
+-- 27.
+
+LAST_NAME       FIRST_NAME      TYPE
+--------------- --------------- --------------------
+Stevens         Lori            Paddling            
+Devon           Harley          Paddling            
+Kiley           Susan           Paddling            
+Unser           Glory           Paddling            
+Devon           Harley          Paddling            
+Stevens         Lori            Paddling            
+Unser           Glory           Paddling            
+Devon           Harley          Paddling            
+Stevens         Lori            Paddling            
+Stevens         Lori            Paddling            
+Kiley           Susan           Paddling            
+Kiley           Susan           Paddling            
+Jarrell         Gladys          Paddling            
+Lomack          Teresa          Paddling            
+
+(14 row(s) affected)
+
+-- 28.
+
+LAST_NAME       FIRST_NAME      TYPE
+--------------- --------------- --------------------
+Stevens         Lori            Paddling            
+Devon           Harley          Paddling            
+Kiley           Susan           Paddling            
+Unser           Glory           Paddling            
+Devon           Harley          Paddling            
+Stevens         Lori            Paddling            
+Unser           Glory           Paddling            
+Devon           Harley          Paddling            
+Stevens         Lori            Paddling            
+Stevens         Lori            Paddling            
+Kiley           Susan           Paddling            
+Kiley           Susan           Paddling            
+Jarrell         Gladys          Paddling            
+Lomack          Teresa          Paddling            
+
+(14 row(s) affected)
+
+-- 29.
+
+TRIP_ID     TRIP_NAME                                                                   TRIP_ID     TRIP_NAME                                                                   START_LOCATION
+----------- --------------------------------------------------------------------------- ----------- --------------------------------------------------------------------------- --------------------------------------------------
+2           Mt Ascutney - North Peak                                                    3           Mt Ascutney - West Peak                                                     Weathersfield                                     
+2           Mt Ascutney - North Peak                                                    44          Blackbird Forrest                                                           Weathersfield                                     
+3           Mt Ascutney - West Peak                                                     44          Blackbird Forrest                                                           Weathersfield                                     
+5           Baldpate Mountain                                                           43          Big Sky Mountain                                                            North Newry                                       
+9           Big Rock Cave                                                               11          Chocorua Lake Tour                                                          Tamworth                                          
+9           Big Rock Cave                                                               42          Mirror Lake Tuor                                                            Tamworth                                          
+11          Chocorua Lake Tour                                                          42          Mirror Lake Tuor                                                            Tamworth                                          
+12          Cadillac Mountain Ride                                                      13          Cadillac Mountain                                                           Bar Harbor                                        
+12          Cadillac Mountain Ride                                                      17          Huguenot Head Hike                                                          Bar Harbor                                        
+12          Cadillac Mountain Ride                                                      37          Seal Beach Harbor                                                           Bar Harbor                                        
+13          Cadillac Mountain                                                           17          Huguenot Head Hike                                                          Bar Harbor                                        
+13          Cadillac Mountain                                                           37          Seal Beach Harbor                                                           Bar Harbor                                        
+17          Huguenot Head Hike                                                          37          Seal Beach Harbor                                                           Bar Harbor                                        
+20          Lake Mephremagog Tour                                                       46          Overbridge River                                                            Newport                                           
+
+(14 row(s) affected)
+
+-- 30.
+
+TRIP_NAME                                                                   TYPE
+--------------------------------------------------------------------------- --------------------
+Arethusa Falls                                                              Hiking              
+Baldpate Mountain                                                           Hiking              
+Big Rock Cave                                                               Hiking              
+Big Sky Mountain                                                            Hiking              
+Black Pond                                                                  Hiking              
+Crawford Path Presidentials Hike                                            Hiking              
+Long Pond                                                                   Hiking              
+Long Pond                                                                   Hiking              
+Mount Cardigan Hike                                                         Hiking              
+Mount Garfield Hike                                                         Hiking              
+Mount Garfield Hike                                                         Hiking              
+Mount Garfield Hike                                                         Hiking              
+Mt Ascutney - North Peak                                                    Hiking              
+Mt Ascutney - West Peak                                                     Hiking              
+Mt. Cardigan - Firescrew                                                    Hiking              
+Wachusett Mountain                                                          Hiking              
+Welch and Dickey Mountains Hike                                             Hiking              
+Welch and Dickey Mountains Hike                                             Hiking              
+
+(18 row(s) affected)
+
+-- 31.
+
+CUSTOMER_NUM LAST_NAME                      STATE
+------------ ------------------------------ -----
+101          Northfold                      NH
+102          Ocean                          MA
+103          Kasuma                         CT
+104          Goff                           MA
+105          McLean                         NY
+106          Morontoia                      RI
+107          Marchand                       NH
+108          Rulf                           PA
+109          Caron                          ME
+112          Jones                          MA
+115          Vaccari                        NJ
+116          Murakami                       MA
+119          Chau                           VT
+120          Gernowski                      ME
+121          Bretton-Borak                  VT
+122          Hefferson                      NH
+124          Busa                           CT
+125          Peterson                       NY
+126          Brown                          CT
+127          Wells                          PA
+128          Cannon                         NY
+129          Miner                          MD
+130          Ashford                        DE
+131          Yang                           ME
+
+(24 row(s) affected)
+
+-- 32.
+
+CUSTOMER_NUM LAST_NAME                      STATE
+------------ ------------------------------ -----
+115          Vaccari                        NJ
+
+(1 row(s) affected)
+
+-- 33.
+
+TRIP_ID     TRIP_NAME                                                                   TYPE
+----------- --------------------------------------------------------------------------- --------------------
+38          Sawyer River Ride                                                           Biking              
+
+(1 row(s) affected)
+
+-- 34.
+
+TRIP_ID     TRIP_NAME                                                                   TYPE
+----------- --------------------------------------------------------------------------- --------------------
+1           Arethusa Falls                                                              Hiking              
+3           Mt Ascutney - West Peak                                                     Hiking              
+5           Baldpate Mountain                                                           Hiking              
+8           Black Pond                                                                  Hiking              
+9           Big Rock Cave                                                               Hiking              
+11          Chocorua Lake Tour                                                          Paddling            
+12          Cadillac Mountain Ride                                                      Biking              
+16          Cherry Pond                                                                 Hiking              
+17          Huguenot Head Hike                                                          Hiking              
+20          Lake Mephremagog Tour                                                       Paddling            
+21          Long Pond                                                                   Hiking              
+22          Long Pond Tour                                                              Paddling            
+23          Lower Pond Tour                                                             Paddling            
+26          Mount Cardigan Hike                                                         Hiking              
+27          Mt. Chocorua                                                                Hiking              
+28          Mount Garfield Hike                                                         Hiking              
+29          Metacomet-Monadnock Trail Hike                                              Hiking              
+30          McLennan Reservation Hike                                                   Hiking              
+31          Missisquoi River - VT                                                       Paddling            
+32          Northern Forest Canoe Trail                                                 Paddling            
+34          Pontook Reservoir Tour                                                      Paddling            
+35          Pisgah STATE Park Ride                                                      Biking              
+36          Pondicherry Trail Ride                                                      Biking              
+37          Seal Beach Harbor                                                           Hiking              
+38          Sawyer River Ride                                                           Biking              
+39          Welch and Dickey Mountains Hike                                             Hiking              
+41          Westfield River Loop                                                        Biking              
+42          Mirror Lake Tuor                                                            Paddling            
+44          Blackbird Forrest                                                           Biking              
+
+(29 row(s) affected)
+
+-- 35.
+
+TRIP_ID     TRIP_NAME                                                                   RESERVATION_ID
+----------- --------------------------------------------------------------------------- --------------
+1           Arethusa Falls                                                              1600012
+2           Mt Ascutney - North Peak                                                    1600010
+3           Mt Ascutney - West Peak                                                     1600011
+4           Bradbury Mountain Ride                                                      1600029
+5           Baldpate Mountain                                                           1600031
+8           Black Pond                                                                  1600013
+9           Big Rock Cave                                                               1600033
+10          Mt. Cardigan - Firescrew                                                    1600015
+11          Chocorua Lake Tour                                                          1600016
+12          Cadillac Mountain Ride                                                      1600014
+12          Cadillac Mountain Ride                                                      1600026
+15          Crawford Path Presidentials Hike                                            1600030
+19          Mason's Farm                                                                1600035
+21          Long Pond                                                                   1600022
+21          Long Pond                                                                   1600002
+22          Long Pond Tour                                                              1600007
+25          Mount Battie Ride                                                           1600019
+26          Mount Cardigan Hike                                                         1600004
+28          Mount Garfield Hike                                                         1600003
+28          Mount Garfield Hike                                                         1600008
+28          Mount Garfield Hike                                                         1600020
+31          Missisquoi River - VT                                                       1600037
+32          Northern Forest Canoe Trail                                                 1600021
+32          Northern Forest Canoe Trail                                                 1600006
+38          Sawyer River Ride                                                           1600009
+38          Sawyer River Ride                                                           1600024
+38          Sawyer River Ride                                                           1600025
+38          Sawyer River Ride                                                           1600018
+39          Welch and Dickey Mountains Hike                                             1600005
+39          Welch and Dickey Mountains Hike                                             1600017
+40          Wachusett Mountain                                                          1600001
+42          Mirror Lake Tuor                                                            1600032
+43          Big Sky Mountain                                                            1600034
+46          Overbridge River                                                            1600036
+
+(34 row(s) affected)
+
+-- 36.
+
+TRIP_ID     GUIDE_NUM LAST_NAME       FIRST_NAME
+----------- --------- --------------- ---------------
+30          AM01      Abrams          Miles          
+21          AM01      Abrams          Miles          
+2           AM01      Abrams          Miles          
+45          AM02      Adams           Michael        
+44          AA01      Antione         Albert         
+41          BR01      Boyers          Rita           
+39          BR01      Boyers          Rita           
+28          BR01      Boyers          Rita           
+25          BR01      Boyers          Rita           
+24          BR01      Boyers          Rita           
+12          BR01      Boyers          Rita           
+9           BR01      Boyers          Rita           
+8           BR01      Boyers          Rita           
+4           BR01      Boyers          Rita           
+40          DH01      Devon           Harley         
+29          DH01      Devon           Harley         
+23          DH01      Devon           Harley         
+19          DH01      Devon           Harley         
+11          DH01      Devon           Harley         
+35          GZ01      Gregory         Zach           
+27          GZ01      Gregory         Zach           
+26          GZ01      Gregory         Zach           
+15          GZ01      Gregory         Zach           
+10          GZ01      Gregory         Zach           
+4           GZ01      Gregory         Zach           
+1           GZ01      Gregory         Zach           
+42          JG01      Jarrell         Gladys         
+38          KS02      Kelly           Sam            
+36          KS02      Kelly           Sam            
+18          KS02      Kelly           Sam            
+16          KS02      Kelly           Sam            
+14          KS02      Kelly           Sam            
+34          KS01      Kiley           Susan          
+32          KS01      Kiley           Susan          
+11          KS01      Kiley           Susan          
+5           KS01      Kiley           Susan          
+46          LT01      Lomack          Teresa         
+37          RH01      Rowan           Hal            
+17          RH01      Rowan           Hal            
+13          RH01      Rowan           Hal            
+6           RH01      Rowan           Hal            
+1           RH01      Rowan           Hal            
+43          SL02      Smith           Linda          
+31          SL01      Stevens         Lori           
+23          SL01      Stevens         Lori           
+20          SL01      Stevens         Lori           
+7           SL01      Stevens         Lori           
+3           SL01      Stevens         Lori           
+2           SL01      Stevens         Lori           
+33          UG01      Unser           Glory          
+22          UG01      Unser           Glory          
+11          UG01      Unser           Glory          
+5           UG01      Unser           Glory          
+
+(53 row(s) affected)
+

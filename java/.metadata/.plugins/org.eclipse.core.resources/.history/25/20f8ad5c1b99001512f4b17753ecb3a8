@@ -1,0 +1,11 @@
+
+public class EndOfProgram 
+{
+	// End of program method
+	//accepts two strings
+	public static void EndOfProgram (String end ,String finalEnd)
+	{
+		System.out.println(end);
+		System.out.println(finalEnd);
+	}
+}

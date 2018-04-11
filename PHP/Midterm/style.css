@@ -1,0 +1,103 @@
+
+
+/*correct #ccffcc*/
+
+body
+{
+background-color: #e6f7ff;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+#marg
+{
+	margin: 15px;
+	text-align: left;
+
+}
+#dspwrap
+{
+	background-color:  #ffffff;
+	border-style: ridge;
+	border-width: 9px;
+	border-radius: 25px;
+	padding: 12px;
+
+}
+#question
+{
+	background-color: red;
+}
+
+label
+{
+padding: 10px;
+display: inline;
+font-size: 20px;
+}
+input
+{
+	display:inline;
+}
+#title
+{
+	text-align: center;
+	font-size: 100px;
+}
+#topform
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#btn
+{
+	margin: 10px;
+	display: block;
+	padding: .5%;
+	text-align: center;
+}
+.notice
+{
+	color: gray;
+	font: 30px;
+	margin: 5px;
+	text-align: center;
+}
+#end
+{
+	border-top: dotted;
+	border-width: 2px;
+	border-color: #ff704d;
+	margin-top: 10px;
+	text-align: center;
+}
+#thxmsg
+{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
+
+}
+.ansc
+{
+	background-color: #ccffcc;
+	text-align: left;
+}
+.answ
+{
+	background-color: #ffcccc;
+	text-align: left;
+}
+.dspsubq
+{
+	text-align: left;
+}
+img
+{
+	max-width: 50px;
+	max-height: 50px;
+	float: right;
+}

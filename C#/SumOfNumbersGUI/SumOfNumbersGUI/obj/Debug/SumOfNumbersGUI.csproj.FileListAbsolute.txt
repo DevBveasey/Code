@@ -1,0 +1,9 @@
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\bin\Debug\SumOfNumbersGUI.exe.config
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\obj\Debug\SumOfNumbersGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\obj\Debug\SumOfNumbersGUI.Form1.resources
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\obj\Debug\SumOfNumbersGUI.Properties.Resources.resources
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\obj\Debug\SumOfNumbersGUI.csproj.GenerateResource.Cache
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\bin\Debug\SumOfNumbersGUI.exe
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\bin\Debug\SumOfNumbersGUI.pdb
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\obj\Debug\SumOfNumbersGUI.exe
+E:\Chapter 5\SumOfNumbersGUI\SumOfNumbersGUI\obj\Debug\SumOfNumbersGUI.pdb

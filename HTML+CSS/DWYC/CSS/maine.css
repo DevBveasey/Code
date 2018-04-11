@@ -1,0 +1,193 @@
+body {
+  background-color: rgb(16, 183, 152);
+  background-size: 100% 100%;
+  font-size: .75rem;
+}
+img{
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+.Title{
+  text-align: center;
+  text-overflow: hidden;
+  font-size: 1.5rem;
+  margin: .25rem;
+  padding: .5rem;
+}
+h1,h2,h3,h4{
+  text-align: center;
+  text-overflow: hidden;
+  font-size: 1rem;
+  margin: .25rem;
+  padding: .5rem;
+}
+#memlist{
+  list-style: none;
+  padding: 1rem;
+  margin: 0rem;
+  font-size: 1rem;
+}
+.optiongold{
+  text-align: center;
+  background-color: gold;
+  border-style: solid;
+  border-width: .5rem;
+  border-color: black;
+  margin: 1rem;
+}
+.optionsilver{
+  text-align: center;
+  background-color: silver;
+  border-style: solid;
+  border-width: .5rem;
+  border-color: black;
+  margin: 1rem;
+}
+.optionbronze{
+  text-align: center;
+  background-color: rgb(205, 127, 50);
+  border-style: solid;
+  border-width: .5rem;
+  border-color: black;
+  margin: 1rem;
+}
+.optiontrial{
+  text-align: center;
+  background-color: rgb(62, 135, 41);
+  border-style: solid;
+  border-width: .5rem;
+  border-color: black;
+  margin: 1rem;
+  }
+label, input{font-size: 1rem;}
+
+input[type="text"],
+input[type="phone"],
+input[type="email"]
+{min-width: 80%;
+min-height: 1rem;}
+
+input[type="checkbox"]{
+  min-width: 2%;
+  min-width: 0rem
+}
+select{min-width: 80%;
+min-height: 1rem;
+}
+textarea{min-width: 80%;
+min-height: 3rem;}
+
+.header{
+  margin: .25rem 0rem;
+  background-color: rgb(36, 150, 150);
+  border-radius: 25%;
+  color: yellow;
+  text-align: center;
+}
+.Memberships{
+background-color: rgb(16, 150, 140);
+list-style-type: none;
+margin: .25rem;
+padding: .35rem;
+}
+.button{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: .25rem 5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .75rem;
+  margin: 0rem 1rem;
+  cursor: pointer;
+  align-content: center;
+}
+.memwrap{
+  text-align: center;
+}
+.footer{
+background-color: #525a66;
+color: #8b929b;
+text-align: center;
+align-content: center;
+}
+#home_pic{
+     
+    border-style: solid;
+    border-color: white;
+    border-width: .2rem; 
+    max-height: 15rem;
+    max-width: 90%;
+}
+#info{
+  background-color: rgb(16, 150, 140);
+  border-radius: 10%;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+}
+p{ margin: .2rem,.2rem,.2rem,.2rem;}
+
+ul.topnav li {float: left; text-align: center; width: 22%}
+ul.topnav {
+  list-style-type: none;
+  margin: .25rem;
+  padding: .5rem;
+  overflow: hidden;
+}
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: .2rem .2rem;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1rem;}
+
+ul.topnav li a:hover {
+  background-color: #33A8FF;
+  border-radius: 25%;
+}
+ul.bottomnav li {float: left; text-align: center; width: 33%}
+
+ul.bottomnav {
+  list-style-type: none;
+  margin: .25rem;
+  padding: .05rem;
+  overflow: hidden;
+  border-radius: 25%;
+  align-content: center;
+}
+ul.bottomnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: .02rem .5rem;
+  transition: 0.3s;
+  font-size: 1rem;}
+
+ul.bottomnav li a:hover {
+  background-color: #33A8FF;
+  border-radius: 25%;
+}
+#pg{
+  max-width: 800px;
+  padding: 0px;
+  margin: auto;
+  display: block;
+}
+
+Write tablet / desktop styles here 
+@media only screen and (min-width:640px)
+{
+ul.topnav li a {font-size: 17rem;}
+
+ul.bottomnav li a {font-size: 17rem;}
+ul.bottomnav li {width: 30%}
+
+.Title{font-size: 1.25rem;}
+h1{font-size: 2rem;}
+}

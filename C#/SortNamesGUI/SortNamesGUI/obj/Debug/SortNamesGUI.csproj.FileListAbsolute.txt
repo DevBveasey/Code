@@ -1,0 +1,8 @@
+E:\Chapter 8\SortNamesGUI\SortNamesGUI\bin\Debug\SortNamesGUI.exe.config
+E:\Chapter 8\SortNamesGUI\SortNamesGUI\bin\Debug\SortNamesGUI.exe
+E:\Chapter 8\SortNamesGUI\SortNamesGUI\bin\Debug\SortNamesGUI.pdb
+E:\Chapter 8\SortNamesGUI\SortNamesGUI\obj\Debug\SortNamesGUI.Form1.resources
+E:\Chapter 8\SortNamesGUI\SortNamesGUI\obj\Debug\SortNamesGUI.Properties.Resources.resources
+E:\Chapter 8\SortNamesGUI\SortNamesGUI\obj\Debug\SortNamesGUI.csproj.GenerateResource.Cache
+E:\Chapter 8\SortNamesGUI\SortNamesGUI\obj\Debug\SortNamesGUI.exe
+E:\Chapter 8\SortNamesGUI\SortNamesGUI\obj\Debug\SortNamesGUI.pdb

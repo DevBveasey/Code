@@ -1,0 +1,8 @@
+E:\Chapter 5\IncreaseGUI\IncreaseGUI\bin\Debug\IncreaseGUI.exe.config
+E:\Chapter 5\IncreaseGUI\IncreaseGUI\bin\Debug\IncreaseGUI.exe
+E:\Chapter 5\IncreaseGUI\IncreaseGUI\bin\Debug\IncreaseGUI.pdb
+E:\Chapter 5\IncreaseGUI\IncreaseGUI\obj\Debug\IncreaseGUI.Form1.resources
+E:\Chapter 5\IncreaseGUI\IncreaseGUI\obj\Debug\IncreaseGUI.Properties.Resources.resources
+E:\Chapter 5\IncreaseGUI\IncreaseGUI\obj\Debug\IncreaseGUI.csproj.GenerateResource.Cache
+E:\Chapter 5\IncreaseGUI\IncreaseGUI\obj\Debug\IncreaseGUI.exe
+E:\Chapter 5\IncreaseGUI\IncreaseGUI\obj\Debug\IncreaseGUI.pdb

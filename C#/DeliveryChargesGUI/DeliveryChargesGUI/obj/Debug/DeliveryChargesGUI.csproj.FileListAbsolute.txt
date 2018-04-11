@@ -1,0 +1,9 @@
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\bin\Debug\DeliveryChargesGUI.exe.config
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\bin\Debug\DeliveryChargesGUI.exe
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\bin\Debug\DeliveryChargesGUI.pdb
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\obj\Debug\DeliveryChargesGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\obj\Debug\DeliveryChargesGUI.Form1.resources
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\obj\Debug\DeliveryChargesGUI.Properties.Resources.resources
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\obj\Debug\DeliveryChargesGUI.csproj.GenerateResource.Cache
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\obj\Debug\DeliveryChargesGUI.exe
+E:\Chapter 6\DeliveryChargesGUI\DeliveryChargesGUI\obj\Debug\DeliveryChargesGUI.pdb

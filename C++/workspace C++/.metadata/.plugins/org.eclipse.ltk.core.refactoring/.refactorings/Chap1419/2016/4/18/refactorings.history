@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Chap1419/Payroll.txt&apos; to &apos;PayrollX.txt&apos;" description="Rename resource &apos;Payroll.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Payroll.txt" name="PayrollX.txt" stamp="1461584336077" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Chap1419/PayrollX.txt&apos; to &apos;Payroll.txt&apos;" description="Rename resource &apos;PayrollX.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="PayrollX.txt" name="Payroll.txt" stamp="1461584409949" updateReferences="true"/>
+</session>

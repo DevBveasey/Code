@@ -1,0 +1,9 @@
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\obj\Debug\InvoiceGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\obj\Debug\InvoiceGUI.Form1.resources
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\obj\Debug\InvoiceGUI.Properties.Resources.resources
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\obj\Debug\InvoiceGUI.csproj.GenerateResource.Cache
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\bin\Debug\InvoiceGUI.exe.config
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\bin\Debug\InvoiceGUI.exe
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\bin\Debug\InvoiceGUI.pdb
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\obj\Debug\InvoiceGUI.exe
+E:\Chapter 10\InvoiceGUI\InvoiceGUI\obj\Debug\InvoiceGUI.pdb

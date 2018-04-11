@@ -1,0 +1,9 @@
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\bin\Debug\ProjectedSalesGUI.exe.config
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\bin\Debug\ProjectedSalesGUI.exe
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\bin\Debug\ProjectedSalesGUI.pdb
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\obj\Debug\ProjectedSalesGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\obj\Debug\ProjectedSalesGUI.Form1.resources
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\obj\Debug\ProjectedSalesGUI.Properties.Resources.resources
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\obj\Debug\ProjectedSalesGUI.csproj.GenerateResource.Cache
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\obj\Debug\ProjectedSalesGUI.exe
+E:\Chapter 3\ProjectedSalesGUI\ProjectedSalesGUI\obj\Debug\ProjectedSalesGUI.pdb

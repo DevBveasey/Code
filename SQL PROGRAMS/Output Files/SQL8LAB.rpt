@@ -1,0 +1,431 @@
+﻿
+-- 1.
+
+ITEM_NUM UPPERCASE_DESCRIPTION
+-------- ------------------------------
+AH74     PATIENCE                      
+AQ22     RACE CAR                      
+BR23     SKITTLES                      
+CD33     WOOD BLOCK SET (48 PIECE)     
+DL51     CLASSIC RAILWAY SET           
+DR67     GIANT STAR BRAIN TEASER       
+DW23     MANCALA                       
+EL33     ARMY TANK                     
+FD11     ROCKING HORSE                 
+FH24     PUZZLE GIFT SET               
+KA12     CRIBBAGE SET                  
+KD34     PENTOMINOES BRAIN TEASER      
+KL78     PICK UP STICKS                
+MT03     ZAUBERKASTEN BRAIN TEASER     
+MV99     LINCOLN LOG SET               
+NL89     WOOD BLOCK SET (62 PIECE)     
+TR40     TIC TAC TOE                   
+TW35     FIRE ENGINE                   
+WD16     STACK'EM TOWER                
+ZZ77     PIN THE TAIL                  
+
+(20 row(s) affected)
+
+-- 2.
+
+CUSTOMER_NUM CUSTOMER_NAME                       CITY
+------------ ----------------------------------- ---------------
+260          Brookings Direct                    Grove          
+665          Cricket Gift Shop                   GROVE          
+901          Moore Gifts                         Grove          
+
+(3 row(s) affected)
+
+-- 3.
+
+CUSTOMER_NUM CUSTOMER_NAME                       BALANCE                                 ROUNDED_BALANCE
+------------ ----------------------------------- --------------------------------------- ---------------------------------------
+126          Toys Galore                         1210.25                                 1210.00
+260          Brookings Direct                    575.00                                  575.00
+334          The Everything Shop                 2345.75                                 2346.00
+386          Johnson's Department Store          879.25                                  879.00
+440          Grove Historical Museum Store       345.00                                  345.00
+502          Cards and More                      5025.75                                 5026.00
+586          Almondton General Store             3456.75                                 3457.00
+665          Cricket Gift Shop                   678.90                                  679.00
+713          Cress Store                         4234.60                                 4235.00
+796          Unique Gifts                        124.75                                  125.00
+824          Kline's                             2475.99                                 2476.00
+893          All Season Gifts                    935.75                                  936.00
+899          Toddler Toys                        1000.00                                 1000.00
+901          Moore Gifts                         2265.50                                 2266.00
+903          Little People Gifts                 5975.25                                 5975.00
+
+(15 row(s) affected)
+
+-- 4.
+
+AVG_BAL_2_DECIMALS
+---------------------------------------
+1854.62
+
+(1 row(s) affected)
+
+-- 5.
+
+CUSTOMER_NUM CUSTOMER_NAME                       BALANCE                                 BALANCE_NO_DECIMALS
+------------ ----------------------------------- --------------------------------------- ---------------------------------------
+126          Toys Galore                         1210.25                                 1210
+260          Brookings Direct                    575.00                                  575
+334          The Everything Shop                 2345.75                                 2345
+386          Johnson's Department Store          879.25                                  879
+440          Grove Historical Museum Store       345.00                                  345
+502          Cards and More                      5025.75                                 5025
+586          Almondton General Store             3456.75                                 3456
+665          Cricket Gift Shop                   678.90                                  678
+713          Cress Store                         4234.60                                 4234
+796          Unique Gifts                        124.75                                  124
+824          Kline's                             2475.99                                 2475
+893          All Season Gifts                    935.75                                  935
+899          Toddler Toys                        1000.00                                 1000
+901          Moore Gifts                         2265.50                                 2265
+903          Little People Gifts                 5975.25                                 5975
+
+(15 row(s) affected)
+
+-- 6.
+
+ORDER_NUM CUSTOMER_NUM CUSTOMER_NAME                       ORDER_DATE DATE_PLUS_14_DAYS
+--------- ------------ ----------------------------------- ---------- -----------------
+51608     126          Toys Galore                         2015-10-12 2015-10-26
+51610     334          The Everything Shop                 2015-10-12 2015-10-26
+51613     386          Johnson's Department Store          2015-10-13 2015-10-27
+51614     260          Brookings Direct                    2015-10-13 2015-10-27
+51617     586          Almondton General Store             2015-10-15 2015-10-29
+51619     126          Toys Galore                         2015-10-15 2015-10-29
+51623     586          Almondton General Store             2015-10-15 2015-10-29
+51625     796          Unique Gifts                        2015-10-16 2015-10-30
+51626     900          Classic Toys                        2015-10-16 2015-10-30
+51627     440          Grove Historical Museum Store       2015-10-17 2015-10-31
+51628     903          Little People Gifts                 2015-10-17 2015-10-31
+51629     260          Brookings Direct                    2015-10-17 2015-10-31
+51630     665          Cricket Gift Shop                   2015-10-18 2015-11-01
+51631     713          Cress Store                         2015-10-18 2015-11-01
+51632     902          The Toy Store                       2015-10-19 2015-11-02
+51633     126          Toys Galore                         2015-10-19 2015-11-02
+51634     901          Moore Gifts                         2015-10-19 2015-11-02
+51635     502          Cards and More                      2015-10-19 2015-11-02
+51636     899          Toddler Toys                        2015-10-20 2015-11-03
+51637     334          The Everything Shop                 2015-10-20 2015-11-03
+
+(20 row(s) affected)
+
+-- 7.
+
+ORDER_NUM CUSTOMER_NUM CUSTOMER_NAME                       ORDER_DATE DATE_PLUS_3_MONTHS
+--------- ------------ ----------------------------------- ---------- ------------------
+51608     126          Toys Galore                         2015-10-12 2016-01-12
+51610     334          The Everything Shop                 2015-10-12 2016-01-12
+51613     386          Johnson's Department Store          2015-10-13 2016-01-13
+51614     260          Brookings Direct                    2015-10-13 2016-01-13
+51617     586          Almondton General Store             2015-10-15 2016-01-15
+51619     126          Toys Galore                         2015-10-15 2016-01-15
+51623     586          Almondton General Store             2015-10-15 2016-01-15
+51625     796          Unique Gifts                        2015-10-16 2016-01-16
+51626     900          Classic Toys                        2015-10-16 2016-01-16
+51627     440          Grove Historical Museum Store       2015-10-17 2016-01-17
+51628     903          Little People Gifts                 2015-10-17 2016-01-17
+51629     260          Brookings Direct                    2015-10-17 2016-01-17
+51630     665          Cricket Gift Shop                   2015-10-18 2016-01-18
+51631     713          Cress Store                         2015-10-18 2016-01-18
+51632     902          The Toy Store                       2015-10-19 2016-01-19
+51633     126          Toys Galore                         2015-10-19 2016-01-19
+51634     901          Moore Gifts                         2015-10-19 2016-01-19
+51635     502          Cards and More                      2015-10-19 2016-01-19
+51636     899          Toddler Toys                        2015-10-20 2016-01-20
+51637     334          The Everything Shop                 2015-10-20 2016-01-20
+
+(20 row(s) affected)
+
+-- 8.
+
+ORDER_NUM CUSTOMER_NUM CUSTOMER_NAME                       ORDER_DATE DATE_PLUS_1_YEAR
+--------- ------------ ----------------------------------- ---------- ----------------
+51608     126          Toys Galore                         2015-10-12 2016-10-12
+51610     334          The Everything Shop                 2015-10-12 2016-10-12
+51613     386          Johnson's Department Store          2015-10-13 2016-10-13
+51614     260          Brookings Direct                    2015-10-13 2016-10-13
+51617     586          Almondton General Store             2015-10-15 2016-10-15
+51619     126          Toys Galore                         2015-10-15 2016-10-15
+51623     586          Almondton General Store             2015-10-15 2016-10-15
+51625     796          Unique Gifts                        2015-10-16 2016-10-16
+51626     900          Classic Toys                        2015-10-16 2016-10-16
+51627     440          Grove Historical Museum Store       2015-10-17 2016-10-17
+51628     903          Little People Gifts                 2015-10-17 2016-10-17
+51629     260          Brookings Direct                    2015-10-17 2016-10-17
+51630     665          Cricket Gift Shop                   2015-10-18 2016-10-18
+51631     713          Cress Store                         2015-10-18 2016-10-18
+51632     902          The Toy Store                       2015-10-19 2016-10-19
+51633     126          Toys Galore                         2015-10-19 2016-10-19
+51634     901          Moore Gifts                         2015-10-19 2016-10-19
+51635     502          Cards and More                      2015-10-19 2016-10-19
+51636     899          Toddler Toys                        2015-10-20 2016-10-20
+51637     334          The Everything Shop                 2015-10-20 2016-10-20
+
+(20 row(s) affected)
+
+-- 9.
+
+TODAYS_DATE_AND_TIME
+-----------------------
+2016-11-22 12:29:21.560
+
+(1 row(s) affected)
+
+-- 10.
+
+REP_NUM FULL_NAME
+------- -------------------------------
+15      Rafael Campos
+30      Megan Gradey
+45      Hui Tian
+60      Janet Sefton
+65      David Banks
+70      Mellissa Winslow
+75      Samuel Lowe
+
+(7 row(s) affected)
+
+-- 11.
+
+CUSTOMER_NUM CUSTOMER_NAME                       FULL_ADDRESS
+------------ ----------------------------------- ----------------------------------------------
+126          Toys Galore                         28 Laketon St. Fullton, CA 90085
+260          Brookings Direct                    452 Columbus Dr. Grove, CA 90092
+334          The Everything Shop                 342 Magee St. Congaree, CA 90097
+386          Johnson's Department Store          124 Main St. Northfield, CA 90098
+440          Grove Historical Museum Store       3456 Central Ave. Fullton, CA 90085
+502          Cards and More                      167 Hale St. Mesa, CA 90104
+586          Almondton General Store             3345 Devon Ave. Almondton, CA 90125
+665          Cricket Gift Shop                   372 Oxford St. GROVE, CA 90092
+713          Cress Store                         12 Rising Sun Ave. Congaree, CA 90097
+796          Unique Gifts                        786 Passmore St. Northfield, CA 90098
+824          Kline's                             945 Gilham St. Mesa, CA 90104
+893          All Season Gifts                    382 Wildwood Ave. Fullton, CA 90085
+899          Toddler Toys                        20 Mall Rd. Fullton, CA 90085
+900          Classic Toys                        1 Ashville Center Mesa, CA 90104
+901          Moore Gifts                         206 Greenway Pl. Grove, CA 90092
+902          The Toy Store                       5 Vine Center Northfield, CA 90098
+903          Little People Gifts                 18898 South St. Los Angeles, CA 90001
+
+(17 row(s) affected)
+
+-- 12.
+
+ITEM_NUM ITEM_INFORMATION
+-------- -------------------------------------------------------------
+AH74     Patience 22.99
+AQ22     Race Car 79.79
+BR23     Skittles 29.99
+CD33     Wood Block Set (48 piece) 89.49
+DL51     Classic Railway Set 107.95
+DR67     Giant Star Brain Teaser 31.95
+DW23     Mancala 50.00
+EL33     Army Tank 125.25
+FD11     Rocking Horse 124.95
+FH24     Puzzle Gift Set 38.95
+KA12     Cribbage Set 75.00
+KD34     Pentominoes Brain Teaser 14.95
+KL78     Pick Up Sticks 10.95
+MT03     Zauberkasten Brain Teaser 45.79
+MV99     Lincoln Log Set 25.25
+NL89     Wood Block Set (62 piece) 119.75
+TR40     Tic Tac Toe 13.99
+TW35     Fire Engine 118.95
+WD16     Stack'em Tower 49.95
+ZZ77     Pin The Tail 19.99
+
+(20 row(s) affected)
+
+-- 13.
+
+GUIDE_NUM LOWERCASE_FIRST UPPERCASE_LAST
+--------- --------------- ---------------
+AA01      albert          ANTIONE        
+AM01      miles           ABRAMS         
+AM02      michael         ADAMS          
+BR01      rita            BOYERS         
+DH01      harley          DEVON          
+GZ01      zach            GREGORY        
+HD01      david           HASTINGS       
+JG01      gladys          JARRELL        
+JT01      thomas          JONES          
+KS01      susan           KILEY          
+KS02      sam             KELLY          
+LT01      teresa          LOMACK         
+MG01      george          MARTIN         
+MR01      ray             MARSTON        
+MR02      ralph           MARTIN         
+RH01      hal             ROWAN          
+RH02      howard          RUSSELL        
+SL01      lori            STEVENS        
+SL02      linda           SMITH          
+UG01      glory           UNSER          
+
+(20 row(s) affected)
+
+-- 14.
+
+AVG_TRIP_PRICE_2_DECIMALS
+---------------------------------------
+57.82
+
+(1 row(s) affected)
+
+-- 15.
+
+RESERVATION_ID TRIP_PRICE                              TRIP_PRICE_NO_DECIMALS
+-------------- --------------------------------------- ---------------------------------------
+1600001        55.00                                   55
+1600002        95.00                                   95
+1600003        35.00                                   35
+1600004        45.00                                   45
+1600005        55.00                                   55
+1600006        80.00                                   80
+1600007        75.00                                   75
+1600008        35.00                                   35
+1600009        90.00                                   90
+1600010        25.00                                   25
+1600011        25.00                                   25
+1600012        15.00                                   15
+1600013        20.00                                   20
+1600014        40.00                                   40
+1600015        20.00                                   20
+1600016        75.00                                   75
+1600017        20.00                                   20
+1600018        85.00                                   85
+1600019        110.00                                  110
+1600020        35.00                                   35
+1600021        90.00                                   90
+1600022        95.00                                   95
+1600024        70.00                                   70
+1600025        70.00                                   70
+1600026        40.00                                   40
+1600029        105.00                                  105
+1600030        60.00                                   60
+1600031        60.00                                   60
+1600032        60.00                                   60
+1600033        45.00                                   45
+1600034        70.00                                   70
+1600035        50.00                                   50
+1600036        30.00                                   30
+1600037        86.00                                   86
+
+(34 row(s) affected)
+
+-- 16.
+
+CUSTOMER_NUM TRIP_DATE  PLUS_2_DAYS
+------------ ---------- -----------
+101          2016-03-26 2016-03-28
+129          2016-04-29 2016-05-01
+130          2016-05-02 2016-05-04
+102          2016-05-14 2016-05-16
+101          2016-06-08 2016-06-10
+119          2016-06-08 2016-06-10
+112          2016-06-11 2016-06-13
+115          2016-06-12 2016-06-14
+122          2016-06-18 2016-06-20
+106          2016-06-18 2016-06-20
+105          2016-06-25 2016-06-27
+115          2016-06-25 2016-06-27
+107          2016-07-09 2016-07-11
+116          2016-07-09 2016-07-11
+101          2016-07-10 2016-07-12
+127          2016-07-22 2016-07-24
+120          2016-07-23 2016-07-25
+121          2016-07-23 2016-07-25
+104          2016-07-25 2016-07-27
+128          2016-08-11 2016-08-13
+124          2016-08-27 2016-08-29
+124          2016-08-29 2016-08-31
+121          2016-09-11 2016-09-13
+125          2016-09-11 2016-09-13
+109          2016-09-11 2016-09-13
+108          2016-09-12 2016-09-14
+103          2016-09-12 2016-09-14
+102          2016-09-15 2016-09-17
+126          2016-09-18 2016-09-20
+120          2016-09-19 2016-09-21
+126          2016-10-01 2016-10-03
+119          2016-10-01 2016-10-03
+131          2016-10-04 2016-10-06
+104          2016-10-16 2016-10-18
+
+(34 row(s) affected)
+
+-- 17.
+
+GUIDE_NUM FULL_NAME
+--------- -------------------------------
+AA01      Albert Antione
+AM01      Miles Abrams
+AM02      Michael Adams
+BR01      Rita Boyers
+DH01      Harley Devon
+GZ01      Zach Gregory
+HD01      David Hastings
+JG01      Gladys Jarrell
+JT01      Thomas Jones
+KS01      Susan Kiley
+KS02      Sam Kelly
+LT01      Teresa Lomack
+MG01      George Martin
+MR01      Ray Marston
+MR02      Ralph Martin
+RH01      Hal Rowan
+RH02      Howard Russell
+SL01      Lori Stevens
+SL02      Linda Smith
+UG01      Glory Unser
+
+(20 row(s) affected)
+
+-- 18.
+
+TRIP_ID     TRIP_NAME
+----------- ---------------------------------------------------------------------------
+4           Bradbury Mountain Ride                                                     
+12          Cadillac Mountain Ride                                                     
+25          Mount Battie Ride                                                          
+33          Park Loop Ride                                                             
+35          Pisgah STATE Park Ride                                                     
+36          Pondicherry Trail Ride                                                     
+38          Sawyer River Ride                                                          
+
+(7 row(s) affected)
+
+-- 19.
+
+CUSTOMER_NUM CUSTOMER_NAME                       CREDIT_LIMIT
+------------ ----------------------------------- ---------------------------------------
+586          Almondton General Store             15000.00
+
+(1 row(s) affected)
+
+-- 20.
+
+DR67 Giant Star Brain Teaser        2 31.95
+FH24 Puzzle Gift Set                1 38.95
+KD34 Pentominoes Brain Teaser       2 14.95
+MT03 Zauberkasten Brain Teaser      1 45.79
+WD16 Stack'em Tower                 3 49.95
+
+-- 21.
+
+GUIDE_NUM GUIDE_FULL_NAME
+--------- -------------------------------
+BR01      Rita Boyers
+
+(1 row(s) affected)
+
+-- 22.
+
+1600001 40 2 55.00
+1600002 21 2 95.00
+ 

@@ -1,0 +1,12 @@
+F:\Chapter 2\TestScores\TestScores\bin\Debug\TestScores.exe.config
+F:\Chapter 2\TestScores\TestScores\bin\Debug\TestScores.exe
+F:\Chapter 2\TestScores\TestScores\bin\Debug\TestScores.pdb
+F:\Chapter 2\TestScores\TestScores\obj\Debug\TestScores.csprojResolveAssemblyReference.cache
+F:\Chapter 2\TestScores\TestScores\obj\Debug\TestScores.exe
+F:\Chapter 2\TestScores\TestScores\obj\Debug\TestScores.pdb
+E:\Chapter 2\TestScores\TestScores\bin\Debug\TestScores.exe.config
+E:\Chapter 2\TestScores\TestScores\obj\Debug\TestScores.exe
+E:\Chapter 2\TestScores\TestScores\obj\Debug\TestScores.pdb
+E:\Chapter 2\TestScores\TestScores\bin\Debug\TestScores.exe
+E:\Chapter 2\TestScores\TestScores\bin\Debug\TestScores.pdb
+E:\Chapter 2\TestScores\TestScores\obj\Debug\TestScores.csprojResolveAssemblyReference.cache

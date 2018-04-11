@@ -1,0 +1,9 @@
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\bin\Debug\AdmissionGUI.exe.config
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\bin\Debug\AdmissionGUI.exe
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\bin\Debug\AdmissionGUI.pdb
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\obj\Debug\AdmissionGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\obj\Debug\AdmissionGUI.Form1.resources
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\obj\Debug\AdmissionGUI.Properties.Resources.resources
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\obj\Debug\AdmissionGUI.csproj.GenerateResource.Cache
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\obj\Debug\AdmissionGUI.exe
+E:\Chapter 4\AdmissionGUI\AdmissionGUI\obj\Debug\AdmissionGUI.pdb

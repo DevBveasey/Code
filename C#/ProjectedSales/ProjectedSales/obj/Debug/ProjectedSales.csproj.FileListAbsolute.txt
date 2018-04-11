@@ -1,0 +1,8 @@
+F:\Chapter 2\ProjectedSales\ProjectedSales\bin\Debug\ProjectedSales.exe.config
+F:\Chapter 2\ProjectedSales\ProjectedSales\bin\Debug\ProjectedSales.exe
+F:\Chapter 2\ProjectedSales\ProjectedSales\bin\Debug\ProjectedSales.pdb
+F:\Chapter 2\ProjectedSales\ProjectedSales\obj\Debug\ProjectedSales.exe
+F:\Chapter 2\ProjectedSales\ProjectedSales\obj\Debug\ProjectedSales.pdb
+E:\Chapter 2\ProjectedSales\ProjectedSales\bin\Debug\ProjectedSales.exe.config
+E:\Chapter 2\ProjectedSales\ProjectedSales\obj\Debug\ProjectedSales.exe
+E:\Chapter 2\ProjectedSales\ProjectedSales\obj\Debug\ProjectedSales.pdb

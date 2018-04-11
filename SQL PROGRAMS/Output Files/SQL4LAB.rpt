@@ -1,0 +1,602 @@
+﻿
+-- 1.
+
+ITEM_NUM DESCRIPTION                    PRICE
+-------- ------------------------------ ---------------------------------------
+AH74     Patience                       22.99
+AQ22     Race Car                       79.79
+BR23     Skittles                       29.99
+CD33     Wood Block Set (48 piece)      89.49
+DL51     Classic Railway Set            107.95
+DR67     Giant Star Brain Teaser        31.95
+DW23     Mancala                        50.00
+EL33     Army Tank                      125.25
+FD11     Rocking Horse                  124.95
+FH24     Puzzle Gift Set                38.95
+KA12     Cribbage Set                   75.00
+KD34     Pentominoes Brain Teaser       14.95
+KL78     Pick Up Sticks                 10.95
+MT03     Zauberkasten Brain Teaser      45.79
+MV99     Lincoln Log Set                25.25
+NL89     Wood Block Set (62 piece)      119.75
+TR40     Tic Tac Toe                    13.99
+TW35     Fire Engine                    118.95
+WD16     Stack'em Tower                 49.95
+ZZ77     Pin The Tail                   19.99
+
+(20 row(s) affected)
+
+-- 2.
+
+ORDER_NUM ORDER_DATE CUSTOMER_NUM
+--------- ---------- ------------
+51608     2015-10-12 126
+51619     2015-10-15 126
+51633     2015-10-19 126
+51629     2015-10-17 260
+51614     2015-10-13 260
+51610     2015-10-12 334
+51637     2015-10-20 334
+51613     2015-10-13 386
+51627     2015-10-17 440
+51635     2015-10-19 502
+51617     2015-10-15 586
+51623     2015-10-15 586
+51630     2015-10-18 665
+51631     2015-10-18 713
+51625     2015-10-16 796
+51636     2015-10-20 899
+51626     2015-10-16 900
+51634     2015-10-19 901
+51632     2015-10-19 902
+51628     2015-10-17 903
+
+(20 row(s) affected)
+
+-- 3.
+
+CUSTOMER_NAME                       CREDIT_LIMIT
+----------------------------------- ---------------------------------------
+Brookings Direct                    10000.00
+Almondton General Store             15000.00
+Cress Store                         10000.00
+Kline's                             15000.00
+Toddler Toys                        10000.00
+Little People Gifts                 15000.00
+
+(6 row(s) affected)
+
+-- 4.
+
+ORDER_NUM ORDER_DATE
+--------- ----------
+51619     2015-10-15
+
+(1 row(s) affected)
+
+-- 5.
+
+CUSTOMER_NUM CUSTOMER_NAME                       REP_NUM
+------------ ----------------------------------- -------
+260          Brookings Direct                    30
+334          The Everything Shop                 45
+386          Johnson's Department Store          30
+440          Grove Historical Museum Store       45
+586          Almondton General Store             45
+665          Cricket Gift Shop                   30
+796          Unique Gifts                        45
+824          Kline's                             30
+900          Classic Toys                        30
+902          The Toy Store                       45
+
+(10 row(s) affected)
+
+-- 6.
+
+ITEM_NUM DESCRIPTION                    CATEGORY
+-------- ------------------------------ --------
+AH74     Patience                       GME
+AQ22     Race Car                       TOY
+BR23     Skittles                       GME
+CD33     Wood Block Set (48 piece)      TOY
+DL51     Classic Railway Set            TOY
+DW23     Mancala                        GME
+EL33     Army Tank                      TOY
+FD11     Rocking Horse                  TOY
+KA12     Cribbage Set                   GME
+KL78     Pick Up Sticks                 GME
+MV99     Lincoln Log Set                GME
+NL89     Wood Block Set (62 piece)      TOY
+TR40     Tic Tac Toe                    GME
+TW35     Fire Engine                    TOY
+ZZ77     Pin The Tail                   GME
+
+(15 row(s) affected)
+
+-- 7.
+
+ITEM_NUM DESCRIPTION                    ON_HAND
+-------- ------------------------------ -----------
+AQ22     Race Car                       24
+BR23     Skittles                       21
+CD33     Wood Block Set (48 piece)      36
+DR67     Giant Star Brain Teaser        24
+DW23     Mancala                        40
+NL89     Wood Block Set (62 piece)      32
+TW35     Fire Engine                    30
+WD16     Stack'em Tower                 36
+
+(8 row(s) affected)
+
+-- 8.
+
+ITEM_NUM DESCRIPTION                    ON_HAND
+-------- ------------------------------ -----------
+AQ22     Race Car                       24
+BR23     Skittles                       21
+CD33     Wood Block Set (48 piece)      36
+DR67     Giant Star Brain Teaser        24
+DW23     Mancala                        40
+NL89     Wood Block Set (62 piece)      32
+TW35     Fire Engine                    30
+WD16     Stack'em Tower                 36
+
+(8 row(s) affected)
+
+-- 9.
+
+ITEM_NUM CATEGORY DESCRIPTION                    ON_HAND_TOY_VALUE
+-------- -------- ------------------------------ ---------------------------------------
+AQ22     TOY      Race Car                       1914.96
+CD33     TOY      Wood Block Set (48 piece)      3221.64
+DL51     TOY      Classic Railway Set            1295.40
+EL33     TOY      Army Tank                      1252.50
+FD11     TOY      Rocking Horse                  999.60
+NL89     TOY      Wood Block Set (62 piece)      3832.00
+TW35     TOY      Fire Engine                    3568.50
+
+(7 row(s) affected)
+
+-- 10.
+
+ITEM_NUM DESCRIPTION                    ON_HAND_GT1500_VALUE
+-------- ------------------------------ ---------------------------------------
+AQ22     Race Car                       1914.96
+CD33     Wood Block Set (48 piece)      3221.64
+DW23     Mancala                        2000.00
+FH24     Puzzle Gift Set                2531.75
+KA12     Cribbage Set                   4200.00
+MT03     Zauberkasten Brain Teaser      2060.55
+NL89     Wood Block Set (62 piece)      3832.00
+TW35     Fire Engine                    3568.50
+WD16     Stack'em Tower                 1798.20
+
+(9 row(s) affected)
+
+-- 11.
+
+ITEM_NUM CATEGORY DESCRIPTION
+-------- -------- ------------------------------
+AH74     GME      Patience                      
+BR23     GME      Skittles                      
+DR67     PZL      Giant Star Brain Teaser       
+DW23     GME      Mancala                       
+FH24     PZL      Puzzle Gift Set               
+KA12     GME      Cribbage Set                  
+KD34     PZL      Pentominoes Brain Teaser      
+KL78     GME      Pick Up Sticks                
+MT03     PZL      Zauberkasten Brain Teaser     
+MV99     GME      Lincoln Log Set               
+TR40     GME      Tic Tac Toe                   
+WD16     PZL      Stack'em Tower                
+ZZ77     GME      Pin The Tail                  
+
+(13 row(s) affected)
+
+-- 12.
+
+CUSTOMER_NUM CUSTOMER_NAME
+------------ -----------------------------------
+502          Cards and More                     
+665          Cricket Gift Shop                  
+713          Cress Store                        
+900          Classic Toys                       
+
+(4 row(s) affected)
+
+-- 13.
+
+ITEM_NUM DESCRIPTION                    ON_HAND     CATEGORY STOREHOUSE PRICE
+-------- ------------------------------ ----------- -------- ---------- ---------------------------------------
+EL33     Army Tank                      10          TOY      3          125.25
+DL51     Classic Railway Set            12          TOY      3          107.95
+KA12     Cribbage Set                   56          GME      3          75.00
+TW35     Fire Engine                    30          TOY      2          118.95
+DR67     Giant Star Brain Teaser        24          PZL      2          31.95
+MV99     Lincoln Log Set                16          GME      1          25.25
+DW23     Mancala                        40          GME      3          50.00
+AH74     Patience                       9           GME      3          22.99
+KD34     Pentominoes Brain Teaser       60          PZL      2          14.95
+KL78     Pick Up Sticks                 110         GME      1          10.95
+ZZ77     Pin The Tail                   48          GME      2          19.99
+FH24     Puzzle Gift Set                65          PZL      1          38.95
+AQ22     Race Car                       24          TOY      2          79.79
+FD11     Rocking Horse                  8           TOY      3          124.95
+BR23     Skittles                       21          GME      2          29.99
+WD16     Stack'em Tower                 36          PZL      3          49.95
+TR40     Tic Tac Toe                    75          GME      2          13.99
+CD33     Wood Block Set (48 piece)      36          TOY      1          89.49
+NL89     Wood Block Set (62 piece)      32          TOY      3          119.75
+MT03     Zauberkasten Brain Teaser      45          PZL      1          45.79
+
+(20 row(s) affected)
+
+-- 14.
+
+ITEM_NUM DESCRIPTION                    ON_HAND     CATEGORY STOREHOUSE PRICE
+-------- ------------------------------ ----------- -------- ---------- ---------------------------------------
+CD33     Wood Block Set (48 piece)      36          TOY      1          89.49
+FH24     Puzzle Gift Set                65          PZL      1          38.95
+KL78     Pick Up Sticks                 110         GME      1          10.95
+MT03     Zauberkasten Brain Teaser      45          PZL      1          45.79
+MV99     Lincoln Log Set                16          GME      1          25.25
+AQ22     Race Car                       24          TOY      2          79.79
+BR23     Skittles                       21          GME      2          29.99
+DR67     Giant Star Brain Teaser        24          PZL      2          31.95
+KD34     Pentominoes Brain Teaser       60          PZL      2          14.95
+TR40     Tic Tac Toe                    75          GME      2          13.99
+TW35     Fire Engine                    30          TOY      2          118.95
+ZZ77     Pin The Tail                   48          GME      2          19.99
+AH74     Patience                       9           GME      3          22.99
+DL51     Classic Railway Set            12          TOY      3          107.95
+DW23     Mancala                        40          GME      3          50.00
+EL33     Army Tank                      10          TOY      3          125.25
+FD11     Rocking Horse                  8           TOY      3          124.95
+KA12     Cribbage Set                   56          GME      3          75.00
+NL89     Wood Block Set (62 piece)      32          TOY      3          119.75
+WD16     Stack'em Tower                 36          PZL      3          49.95
+
+(20 row(s) affected)
+
+-- 15.
+
+CUSTOMER_NUM CUSTOMER_NAME                       STREET               CITY            STATE POSTAL_CODE BALANCE                                 CREDIT_LIMIT                            REP_NUM
+------------ ----------------------------------- -------------------- --------------- ----- ----------- --------------------------------------- --------------------------------------- -------
+901          Moore Gifts                         206 Greenway Pl.     Grove           CA    90092       2265.50                                 NULL                                    70
+902          The Toy Store                       5 Vine Center        Northfield      CA    90098       0.00                                    NULL                                    45
+
+(2 row(s) affected)
+
+-- 16.
+
+BAL_BIGGER_LIMIT
+----------------
+1
+
+(1 row(s) affected)
+
+-- 17.
+
+CUSTOMER_NUM CREDIT_LIMIT                            REP_NUM SUM_BAL
+------------ --------------------------------------- ------- ---------------------------------------
+126          7500.00                                 15      1210.25
+713          10000.00                                15      4234.60
+893          7500.00                                 15      935.75
+
+(3 row(s) affected)
+
+-- 18.
+
+ITEM_NUM DESCRIPTION                    ON_HAND
+-------- ------------------------------ -----------
+DW23     Mancala                        40
+FH24     Puzzle Gift Set                65
+KA12     Cribbage Set                   56
+KD34     Pentominoes Brain Teaser       60
+KL78     Pick Up Sticks                 110
+MT03     Zauberkasten Brain Teaser      45
+TR40     Tic Tac Toe                    75
+ZZ77     Pin The Tail                   48
+
+(8 row(s) affected)
+
+-- 19.
+
+ITEM_NUM DESCRIPTION                    PRICE
+-------- ------------------------------ ---------------------------------------
+KL78     Pick Up Sticks                 10.95
+
+(1 row(s) affected)
+
+-- 20.
+
+REP_NUM SUM_OF_BAL
+------- ---------------------------------------
+15      11406.35
+30      4609.14
+45      6272.25
+65      5975.25
+70      2265.50
+75      1000.00
+
+(6 row(s) affected)
+
+-- 21.
+
+REP_NUM SUM_OF_BIG_BAL
+------- ---------------------------------------
+15      11406.35
+45      6272.25
+65      5975.25
+
+(3 row(s) affected)
+
+-- 22.
+
+REP_NUM LAST_NAME       FIRST_NAME      STREET          CITY            STATE POSTAL_CODE COMMISSION                              RATE
+------- --------------- --------------- --------------- --------------- ----- ----------- --------------------------------------- ---------------------------------------
+15      Campos          Rafael          724 Vinca Dr.   Grove           CA    90092       23457.50                                0.06
+30      Gradey          Megan           632 Liatris St. Fullton         CA    90085       41317.00                                0.08
+45      Tian            Hui             1785 Tyler Ave. Northfield      CA    90098       27789.25                                0.06
+60      Sefton          Janet           267 Oakley St.  Congaree        CA    90097       0.00                                    0.06
+65      Banks           David           101 W. 3rd St.  Los Angeles     CA    90001       17775.75                                0.06
+70      Winslow         Mellissa        155 Grant Rd.   Mesa            CA    90104       2250.50                                 0.05
+
+(6 row(s) affected)
+
+-- 23.
+
+CUSTOMER_NUM CUSTOMER_NAME
+------------ -----------------------------------
+126          Toys Galore                        
+899          Toddler Toys                       
+900          Classic Toys                       
+902          The Toy Store                      
+
+(4 row(s) affected)
+
+-- 24.
+
+LAST_NAME       STATE
+--------------- -----
+Antione         ME
+Adams           VT
+Boyers          NH
+Gregory         NH
+Hastings        VT
+Jarrell         CT
+Jones           ME
+Kiley           NH
+Kelly           NH
+Lomack          ME
+Martin          VT
+Martin          CT
+Rowan           ME
+Russell         CT
+Stevens         VT
+Unser           CT
+
+(16 row(s) affected)
+
+-- 25.
+
+TRIP_NAME                                                                   TYPE
+--------------------------------------------------------------------------- --------------------
+Bradbury Mountain Ride                                                      Biking              
+Cadillac Mountain Ride                                                      Biking              
+Mount Battie Ride                                                           Biking              
+Park Loop Ride                                                              Biking              
+Pisgah STATE Park Ride                                                      Biking              
+Pondicherry Trail Ride                                                      Biking              
+Sawyer River Ride                                                           Biking              
+Westfield River Loop                                                        Biking              
+Blackbird Forrest                                                           Biking              
+
+(9 row(s) affected)
+
+-- 26.
+
+TRIP_NAME                                                                   SEASON
+--------------------------------------------------------------------------- --------------------
+Arethusa Falls                                                              Summer              
+Black Pond                                                                  Summer              
+Big Rock Cave                                                               Summer              
+Mt. Cardigan - Firescrew                                                    Summer              
+Chocorua Lake Tour                                                          Summer              
+Crawford Path Presidentials Hike                                            Summer              
+Long Pond                                                                   Summer              
+Long Pond Tour                                                              Summer              
+Mt Adams                                                                    Summer              
+McLennan Reservation Hike                                                   Summer              
+Missisquoi River - VT                                                       Summer              
+Northern Forest Canoe Trail                                                 Summer              
+Pisgah STATE Park Ride                                                      Summer              
+Welch and Dickey Mountains Hike                                             Summer              
+Mirror Lake Tuor                                                            Summer              
+Overbridge River                                                            Summer              
+
+(16 row(s) affected)
+
+-- 27.
+
+TRIP_NAME                                                                   TYPE                 DISTANCE
+--------------------------------------------------------------------------- -------------------- -----------
+Crawford Path Presidentials Hike                                            Hiking               16
+Twin Falls                                                                  Hiking               14
+
+(2 row(s) affected)
+
+-- 28.
+
+CUSTOMER_NUM LAST_NAME                      FIRST_NAME                     STATE
+------------ ------------------------------ ------------------------------ -----
+105          McLean                         Kyle                           NY
+108          Rulf                           Uschi                          PA
+110          Bers                           Martha                         NY
+115          Vaccari                        Adam                           NJ
+125          Peterson                       Becca                          NY
+127          Wells                          James                          PA
+128          Cannon                         Alicia                         NY
+
+(7 row(s) affected)
+
+-- 29.
+
+CUSTOMER_NUM LAST_NAME                      FIRST_NAME                     STATE
+------------ ------------------------------ ------------------------------ -----
+108          Rulf                           Uschi                          PA
+127          Wells                          James                          PA
+110          Bers                           Martha                         NY
+128          Cannon                         Alicia                         NY
+105          McLean                         Kyle                           NY
+125          Peterson                       Becca                          NY
+115          Vaccari                        Adam                           NJ
+
+(7 row(s) affected)
+
+-- 30.
+
+NUM_ME_MA_TRIPS
+---------------
+17
+
+(1 row(s) affected)
+
+-- 31.
+
+STATE NUM_TRIPS
+----- -----------
+CT    3
+MA    4
+ME    13
+NH    20
+VT    6
+
+(5 row(s) affected)
+
+-- 32.
+
+NUM_20_75_TRIPS
+---------------
+19
+
+(1 row(s) affected)
+
+-- 33.
+
+RESERVATION_ID TRIP_ID     TRIP_DATE  NUM_PERSONS TRIP_PRICE                              OTHER_FEES                              CUSTOMER_NUM
+-------------- ----------- ---------- ----------- --------------------------------------- --------------------------------------- ------------
+1600032        42          2016-08-11 NULL        60.00                                   25.00                                   128 
+1600033        9           2016-07-10 NULL        45.00                                   0.00                                    101 
+1600036        46          2016-06-25 NULL        30.00                                   0.00                                    115 
+
+(3 row(s) affected)
+
+-- 34.
+
+TYPE                 NUM_TYPE_TRIPS
+-------------------- --------------
+Biking               9
+Hiking               26
+Paddling             11
+
+(3 row(s) affected)
+
+-- 35.
+
+RESERVATION_ID TRIP_ID     CUSTOMER_NUM NUM_PERSONS TOTAL_TRIP_PRICE
+-------------- ----------- ------------ ----------- ---------------------------------------
+1600005        39          105          5           275.00
+1600007        22          107          8           680.00
+1600016        11          121          6           540.00
+1600030        15          104          6           450.00
+
+(4 row(s) affected)
+
+-- 36.
+
+TRIP_NAME                                                                   STATE
+--------------------------------------------------------------------------- -----
+Black Pond                                                                  NH
+Cherry Pond                                                                 NH
+Long Pond                                                                   MA
+Long Pond Tour                                                              ME
+Lower Pond Tour                                                             ME
+Pondicherry Trail Ride                                                      NH
+
+(6 row(s) affected)
+
+-- 37.
+
+LAST_NAME       FIRST_NAME      HIRE_DATE
+--------------- --------------- ----------
+Abrams          Miles           2012-06-03
+Boyers          Rita            2012-03-04
+Devon           Harley          2012-01-08
+Gregory         Zach            2012-11-04
+Kiley           Susan           2013-04-08
+
+(5 row(s) affected)
+
+-- 38.
+
+TYPE                 AVG_DISTANCE AVG_SIZE
+-------------------- ------------ -----------
+Biking               17           12
+Hiking               7            9
+Paddling             12           10
+
+(3 row(s) affected)
+
+-- 39.
+
+SEASON
+--------------------
+Early Fall          
+Early Spring        
+Late Fall           
+Late Spring         
+Spring              
+Summer              
+
+(6 row(s) affected)
+
+-- 40.
+
+GUIDE_NUM LAST_NAME       FIRST_NAME      ADDRESS                   CITY                      STATE POSTAL_CODE PHONE_NUM    HIRE_DATE
+--------- --------------- --------------- ------------------------- ------------------------- ----- ----------- ------------ ----------
+AA01      Antione         Albert          777 PineSt.               Bedford                   ME    01730       781-555-3212 2015-09-01
+AM01      Abrams          Miles           54 Quest Ave.             Williamsburg              MA    01096       617-555-6032 2012-06-03
+BR01      Boyers          Rita            140 Oakton Rd.            Jaffrey                   NH    03452       603-555-2134 2012-03-04
+DH01      Devon           Harley          25 Old Ranch Rd.          Sunderland                MA    01375       781-555-7767 2012-01-08
+GZ01      Gregory         Zach            7 Moose Head Rd.          Dummer                    NH    03588       603-555-8765 2012-11-04
+HD01      Hastings        David           3322 W. 3rd St.           Burlington                VT    05401       802-555-6814 2015-03-09
+JG01      Jarrell         Gladys          100 Pine Ave.             Bristol                   CT    06010       860-555-9821 2015-02-24
+JT01      Jones           Thomas          6336 Forrest Dr.          Alford                    ME    01230       413-555-3377 2015-03-09
+KS01      Kiley           Susan           943 Oakton Rd.            Jaffrey                   NH    03452       603-555-1230 2013-04-08
+KS02      Kelly           Sam             9 Congaree Ave.           Fraconia                  NH    03580       603-555-0003 2013-06-10
+LT01      Lomack          Teresa          512 Tower Dr.             Holland                   ME    01521       413-555-5108 2015-06-14
+MG01      Martin          George          12 The Circle             Newport                   VT    05885       802-555-6437 2015-02-20
+MR01      Marston         Ray             24 Shenandoah Rd.         Springfield               MA    01101       781-555-2323 2015-09-14
+MR02      Martin          Ralph           617 Broadway Ave.         West Haven                CT    06516       203-555-6319 2015-04-30
+RH01      Rowan           Hal             12 Heather Rd.            Mount Desert              ME    04660       207-555-9009 2014-06-02
+RH02      Russell         Howard          6719 Brickyard Rd.        Shelton                   CT    06484       203-555-0799 2015-07-30
+SL01      Stevens         Lori            15 Riverton Rd.           Coventry                  VT    05825       802-555-3339 2014-09-05
+SL02      Smith           Linda           1221 Main St.             Portland                  MA    01311       207-555-1770 2015-04-12
+UG01      Unser           Glory           342 Pineview St.          Danbury                   CT    06810       203-555-8534 2015-02-02
+
+(19 row(s) affected)
+
+-- 41.
+
+TRIP_ID     TRIP_NAME
+----------- ---------------------------------------------------------------------------
+2           Mt Ascutney - North Peak                                                   
+3           Mt Ascutney - West Peak                                                    
+10          Mt. Cardigan - Firescrew                                                   
+14          Cannon Mtn                                                                 
+24          Mt Adams                                                                   
+27          Mt. Chocorua                                                               
+
+(6 row(s) affected)
+

@@ -1,0 +1,9 @@
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\bin\Debug\TaxCalculationGUI.exe.config
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\bin\Debug\TaxCalculationGUI.exe
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\bin\Debug\TaxCalculationGUI.pdb
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\obj\Debug\TaxCalculationGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\obj\Debug\TaxCalculationGUI.Form1.resources
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\obj\Debug\TaxCalculationGUI.Properties.Resources.resources
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\obj\Debug\TaxCalculationGUI.csproj.GenerateResource.Cache
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\obj\Debug\TaxCalculationGUI.exe
+E:\Chapter 8\TaxCalculationGUI\TaxCalculationGUI\obj\Debug\TaxCalculationGUI.pdb

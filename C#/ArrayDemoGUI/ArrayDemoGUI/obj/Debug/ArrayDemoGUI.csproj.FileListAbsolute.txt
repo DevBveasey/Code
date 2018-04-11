@@ -1,0 +1,9 @@
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\bin\Debug\ArrayDemoGUI.exe.config
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\bin\Debug\ArrayDemoGUI.exe
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\bin\Debug\ArrayDemoGUI.pdb
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\obj\Debug\ArrayDemoGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\obj\Debug\ArrayDemoGUI.Form1.resources
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\obj\Debug\ArrayDemoGUI.Properties.Resources.resources
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\obj\Debug\ArrayDemoGUI.csproj.GenerateResource.Cache
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\obj\Debug\ArrayDemoGUI.exe
+E:\Chapter 6\ArrayDemoGUI\ArrayDemoGUI\obj\Debug\ArrayDemoGUI.pdb

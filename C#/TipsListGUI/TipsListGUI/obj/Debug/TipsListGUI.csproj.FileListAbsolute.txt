@@ -1,0 +1,9 @@
+E:\Chapter 6\TipsListGUI\TipsListGUI\bin\Debug\TipsListGUI.exe.config
+E:\Chapter 6\TipsListGUI\TipsListGUI\bin\Debug\TipsListGUI.exe
+E:\Chapter 6\TipsListGUI\TipsListGUI\bin\Debug\TipsListGUI.pdb
+E:\Chapter 6\TipsListGUI\TipsListGUI\obj\Debug\TipsListGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 6\TipsListGUI\TipsListGUI\obj\Debug\TipsListGUI.Form1.resources
+E:\Chapter 6\TipsListGUI\TipsListGUI\obj\Debug\TipsListGUI.Properties.Resources.resources
+E:\Chapter 6\TipsListGUI\TipsListGUI\obj\Debug\TipsListGUI.csproj.GenerateResource.Cache
+E:\Chapter 6\TipsListGUI\TipsListGUI\obj\Debug\TipsListGUI.exe
+E:\Chapter 6\TipsListGUI\TipsListGUI\obj\Debug\TipsListGUI.pdb

@@ -1,0 +1,165 @@
+/*
+ * - Marine Merchants
+ * - AUTHOR:Brandon Veasey
+ * - PROJECT: Final
+ * - DATE: 11/15/2017
+ * - SCRIPT: style.css
+ * - Description: Style sheet for site
+*/
+
+body
+{
+    background-color: #cce6ff;
+}
+h2{ text-align: center; }
+
+/* ---------- General classes for use ---------- */
+.floatr{float: right;}
+.floatl{float: left;}
+.center{margin: 0 auto;}
+.border{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3333ff;
+    border-radius: 2%;
+}
+
+/* ---------- navigation menu ---------- */
+ a#home
+ {
+    float: left;
+    background: url(../images/logo.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #b3d9ff;
+
+}
+
+#head
+{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.navbar 
+{
+    overflow: hidden;
+    background-color: #66b3ff;
+    font-family: Arial;
+}
+
+.navbar a 
+{
+    float: right;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.dropdown 
+{
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn 
+{
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: #4da6ff;
+    font-weight: bold;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #66b3ff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a 
+{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+    background-color: #4da6ff;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+/* ---------- all content between header.html and footer.html ---------- */
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+
+}
+p.error{
+
+    text-align: center;
+    color: #e60000;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+/* ---------- login.php ---------- */
+#login_form
+{
+    width: 40%;
+    margin: 0 auto;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#products
+{
+    width: 60%;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    padding-right: 1%; 
+    margin-top: 60px;
+}
+
+/* ---------- product.php ---------- */
+img#product {
+    max-height: 200px;
+    width: auto;
+}
+
+#product_page{
+    width: 50%;
+    margin: 40px auto;
+}
+
+/* ---------- product.php ---------- */
+img{
+    max-height: 100px;
+    width: auto;
+}

@@ -1,0 +1,90 @@
+//============================================================================
+// Name        : Chap1422.cpp
+// Author      : Brandon Veasey
+// Version     :
+// Copyright   : 04/19/2016
+// Description : Chapter 14 – Exercise 22
+// Reading and displaying employee data contained in a sequential access text file
+//============================================================================
+
+
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+using namespace std;
+
+//prototypes
+void processFile();
+
+int main()
+{
+	//display heading
+	cout << "     ABC COMPANY   " << endl;
+	cout << "Weekly Payroll Report" << endl;
+	cout << endl << "Name            Amount" << endl;
+	cout << "-------         ------" << endl;
+
+	//call processFile
+	processFile();
+
+	//end program
+	cout << endl << endl;
+	cout << "End of Report.";
+	return 0;
+}
+
+
+void processFile()
+{
+	//declare variables
+	string employeeName = "";
+	double amount = 0.0;
+	double totalPay = 0.0;
+
+	//open file
+	ifstream inFile;
+	inFile.open("Payroll.txt", ios::in);
+
+	//set number of decimal places
+	cout << fixed << setprecision(2);
+
+	if (inFile.is_open())
+	{
+		while (!inFile.eof())
+		{
+			//read a record
+			getline(inFile, employeeName, '#');
+			inFile >> amount;
+			totalPay += amount;
+
+			if (employeeName.length() == 5)
+			{
+				cout << employeeName << "    #       " << amount ;
+			}
+			else if (employeeName.length() == 8)
+			{
+				cout << employeeName << "         " << amount ;
+			}
+			else if (employeeName.length() == 6)
+			{
+				cout << employeeName << "    *     " << amount ;
+			}
+			else
+			{
+				cout << employeeName << "       !   " << amount ;
+			}
+
+
+		}
+		inFile.close();
+	}
+	else
+	{
+		cout << "PROCESSING ERROR..." << endl << endl;
+		cout << "Payroll.txt file could not be opened." << endl << endl;
+		cout << "Program Terminated.";
+
+	}
+	cout <<endl << "              --------";
+	cout << endl << "Total Payroll $" << amount;
+}

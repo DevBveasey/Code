@@ -1,0 +1,9 @@
+F:\Chapter 2\TestScoresInteractive\TestScoresInteractive\bin\Debug\TestScoresInteractive.exe.config
+F:\Chapter 2\TestScoresInteractive\TestScoresInteractive\bin\Debug\TestScoresInteractive.exe
+F:\Chapter 2\TestScoresInteractive\TestScoresInteractive\bin\Debug\TestScoresInteractive.pdb
+F:\Chapter 2\TestScoresInteractive\TestScoresInteractive\obj\Debug\TestScoresInteractive.csprojResolveAssemblyReference.cache
+F:\Chapter 2\TestScoresInteractive\TestScoresInteractive\obj\Debug\TestScoresInteractive.exe
+F:\Chapter 2\TestScoresInteractive\TestScoresInteractive\obj\Debug\TestScoresInteractive.pdb
+E:\Chapter 2\TestScoresInteractive\TestScoresInteractive\bin\Debug\TestScoresInteractive.exe.config
+E:\Chapter 2\TestScoresInteractive\TestScoresInteractive\obj\Debug\TestScoresInteractive.exe
+E:\Chapter 2\TestScoresInteractive\TestScoresInteractive\obj\Debug\TestScoresInteractive.pdb

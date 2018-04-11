@@ -1,0 +1,9 @@
+E:\Chapter 4\DiscountGUI\DiscountGUI\bin\Debug\DiscountGUI.exe.config
+E:\Chapter 4\DiscountGUI\DiscountGUI\bin\Debug\DiscountGUI.exe
+E:\Chapter 4\DiscountGUI\DiscountGUI\bin\Debug\DiscountGUI.pdb
+E:\Chapter 4\DiscountGUI\DiscountGUI\obj\Debug\DiscountGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 4\DiscountGUI\DiscountGUI\obj\Debug\DiscountGUI.Form1.resources
+E:\Chapter 4\DiscountGUI\DiscountGUI\obj\Debug\DiscountGUI.Properties.Resources.resources
+E:\Chapter 4\DiscountGUI\DiscountGUI\obj\Debug\DiscountGUI.csproj.GenerateResource.Cache
+E:\Chapter 4\DiscountGUI\DiscountGUI\obj\Debug\DiscountGUI.exe
+E:\Chapter 4\DiscountGUI\DiscountGUI\obj\Debug\DiscountGUI.pdb

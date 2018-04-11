@@ -1,0 +1,9 @@
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\bin\Debug\OddNumbersGUI.exe.config
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\bin\Debug\OddNumbersGUI.exe
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\bin\Debug\OddNumbersGUI.pdb
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\obj\Debug\OddNumbersGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\obj\Debug\OddNumbersGUI.Form1.resources
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\obj\Debug\OddNumbersGUI.Properties.Resources.resources
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\obj\Debug\OddNumbersGUI.csproj.GenerateResource.Cache
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\obj\Debug\OddNumbersGUI.exe
+E:\Chapter 5\OddNumbersGUI\OddNumbersGUI\obj\Debug\OddNumbersGUI.pdb

@@ -1,0 +1,9 @@
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\bin\Debug\TestScoresGUI.exe.config
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\bin\Debug\TestScoresGUI.exe
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\bin\Debug\TestScoresGUI.pdb
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\obj\Debug\TestScoresGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\obj\Debug\TestScoresGUI.Form1.resources
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\obj\Debug\TestScoresGUI.Properties.Resources.resources
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\obj\Debug\TestScoresGUI.csproj.GenerateResource.Cache
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\obj\Debug\TestScoresGUI.exe
+E:\Chapter 3\TestScoresGUI\TestScoresGUI\obj\Debug\TestScoresGUI.pdb

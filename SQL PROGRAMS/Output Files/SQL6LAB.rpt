@@ -1,0 +1,33 @@
+﻿-- 1.
+
+ITEM_NUM DESCRIPTION                              ON_HAND     CATEGORY PRICE                                   ON_HAND_VALUE
+-------- ---------------------------------------- ----------- -------- --------------------------------------- ---------------------------------------
+AQ22     Race Car                                 30          TOY      81.39                                   1953.36
+CD33     Wood Block Set (48 piece)                36          TSP      91.28                                   3286.08
+DL51     Classic Train Set                        12          TSP      110.11                                  1321.32
+EL33     Army Tank                                16          TOY      127.76                                  1277.60
+FD11     Rocking Horse                            8           NULL     127.45                                  1019.60
+NL89     Wood Block Set (62 piece)                32          TSP      122.15                                  3908.80
+TL92     Dump Truck                               16          TOY      59.95                                   599.50
+TW35     Fire Engine                              36          TOY      121.33                                  3639.90
+
+(8 row(s) affected)
+
+-- 2.
+
+TRIP_ID     TRIP_NAME                                                                   STATE DISTANCE    MAX_GRP_SIZE SEASON                    DIFFICULTY_LEVEL
+----------- --------------------------------------------------------------------------- ----- ----------- ------------ ------------------------- ----------------
+7           Bloomfield - Maidstone                                                      CT    10          8            Late Spring               MOD
+11          Chocorua Lake Tour                                                          NH    9           15           Summer                    MOD
+19          Mason's Farm                                                                CT    12          9            Late Spring               MOD
+20          Lake Mephremagog Tour                                                       VT    5           15           Late Spring               MOD
+22          Long Pond Tour                                                              ME    9           10           Summer                    MOD
+31          Missisquoi River - VT                                                       VT    12          10           Mid-Summer                MOD
+32          Northern Forest Canoe Trail                                                 NH    15          10           Summer                    MOD
+34          Pontook Reservoir Tour                                                      NH    NULL        14           Late Spring               MOD
+42          Mirror Lake Tour                                                            NH    13          12           Summer                    MOD
+43          Lake Champlain Tour                                                         VT    13          12           Summer                    HRD
+46          Overbridge River                                                            VT    20          4            Mid-Summer                MOD
+
+(11 row(s) affected)
+

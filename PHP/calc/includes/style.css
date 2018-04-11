@@ -1,0 +1,23 @@
+body
+{
+	background-color: lightblue;
+	font-size: 15px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.pwraper
+{
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	display: block;
+
+	
+
+}
+
+.cwraper
+{
+	text-align: left;
+}

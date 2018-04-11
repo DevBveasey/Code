@@ -1,0 +1,9 @@
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\bin\Debug\MilesToFeetGUI.exe.config
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\bin\Debug\MilesToFeetGUI.exe
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\bin\Debug\MilesToFeetGUI.pdb
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\obj\Debug\MilesToFeetGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\obj\Debug\MilesToFeetGUI.Form1.resources
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\obj\Debug\MilesToFeetGUI.Properties.Resources.resources
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\obj\Debug\MilesToFeetGUI.csproj.GenerateResource.Cache
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\obj\Debug\MilesToFeetGUI.exe
+E:\Chapter 3\MilesToFeetGUI\MilesToFeetGUI\obj\Debug\MilesToFeetGUI.pdb

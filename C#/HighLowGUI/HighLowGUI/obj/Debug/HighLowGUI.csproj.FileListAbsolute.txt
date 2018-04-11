@@ -1,0 +1,16 @@
+F:\Chapter 4\HighLowGUI\HighLowGUI\bin\Debug\HighLowGUI.exe.config
+F:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.Form1.resources
+F:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.Properties.Resources.resources
+F:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.csproj.GenerateResource.Cache
+F:\Chapter 4\HighLowGUI\HighLowGUI\bin\Debug\HighLowGUI.exe
+F:\Chapter 4\HighLowGUI\HighLowGUI\bin\Debug\HighLowGUI.pdb
+F:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.exe
+F:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.pdb
+E:\Chapter 4\HighLowGUI\HighLowGUI\bin\Debug\HighLowGUI.exe.config
+E:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.exe
+E:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.pdb
+E:\Chapter 4\HighLowGUI\HighLowGUI\bin\Debug\HighLowGUI.exe
+E:\Chapter 4\HighLowGUI\HighLowGUI\bin\Debug\HighLowGUI.pdb
+E:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.Form1.resources
+E:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.Properties.Resources.resources
+E:\Chapter 4\HighLowGUI\HighLowGUI\obj\Debug\HighLowGUI.csproj.GenerateResource.Cache

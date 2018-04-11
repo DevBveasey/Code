@@ -1,0 +1,381 @@
+﻿
+-- 1.
+
+LOCATION_NUM LOCATION_NAME             ADDRESS                   CITY                      STATE POSTAL_CODE
+------------ ------------------------- ------------------------- ------------------------- ----- -----------
+1            Solmaris Ocean            100 Ocean Ave.            Bowton                    FL    31313
+2            Solmaris Bayside          405 Bayside Blvd.         Glander Bay               FL    31044
+3            Solmaris Seaside          555 Seaside Way           Jacksonville              FL    32201
+
+(3 row(s) affected)
+
+-- 2.
+
+OWNER_NUM LAST_NAME                 FIRST_NAME                ADDRESS                   CITY                      STATE POSTAL_CODE
+--------- ------------------------- ------------------------- ------------------------- ------------------------- ----- -----------
+AD057     Adney                     Bruce and Jean            100 Ocean Ave.            Bowton                    FL    31313
+AN175     Anderson                  Bill                      18 Wilcox St.             Brunswick                 GA    31522
+BL720     Blake                     Jack                      2672 Condor St.           Mills                     SC    29707
+EL025     Elend                     Bill and Sandy            100 Ocean Ave.            BOWTON                    FL    31313
+FE182     Feenstra                  Daniel                    7822 Coventry Dr.         Rivard                    FL    31062
+JU092     Juarez                    Maria                     892 Oak St.               Kaleva                    FL    31521
+KE122     Kelly                     Alyssa                    527 Waters St.            Norton                    MI    49441
+NO225     Norton                    Peter and Caitlin         281 Lakewood Ave.         Lawndale                  PA    19111
+RO123     Robinson                  Mike and Jane             900 Spring Lake Dr.       Springs                   MI    49456
+SM072     Smeltz                    Jim and Cathy             922 Garland Dr.           Lewiston                  FL    32765
+TR222     Trent                     Michael                   405 Bayside Blvd.         Glander Bay               FL    31044
+WN090     Williamson                George                    331 West 12th St.         Wilmington                DE    19801
+WS032     Wilson                    Henry and Karen           25 Nichols St.            Lewiston                  FL    32765
+YO117     Yoder                     Mark and Jane             555 S. DuPont Hwy.        Dover                     DE    19904
+ZO200     Zook                      Michael and Marsha        6116 Beachview Dr.        Rehoboth Beach            DE    19971
+
+(15 row(s) affected)
+
+-- 3.
+
+CONDO_ID    LOCATION_NUM UNIT_NUM SQR_FT      BDRMS       BATHS       CONDO_FEE                               OWNER_NUM
+----------- ------------ -------- ----------- ----------- ----------- --------------------------------------- ---------
+1           1            102      675         1           1           475.00                                  AD057
+2           1            201      1030        2           1           550.00                                  EL025
+3           1            306      1575        3           2           625.00                                  AN175
+4           1            204      1164        2           2           575.00                                  BL720
+5           1            405      1575        3           2           625.00                                  FE182
+6           1            401      1030        2           2           550.00                                  KE122
+7           1            502      745         1           1           490.00                                  JU092
+8           1            503      1680        3           3           670.00                                  RO123
+9           2            A03      725         1           1           190.00                                  TR222
+10          2            A01      1084        2           1           235.00                                  NO225
+11          2            B01      1084        2           2           250.00                                  SM072
+12          2            C01      750         1           1           190.00                                  AN175
+13          2            C02      1245        2           2           250.00                                  WS032
+14          2            C06      1540        3           2           300.00                                  RO123
+15          3            AA1      2000        3           2           700.00                                  ZO200
+16          3            CC2      1025        2           1           575.00                                  YO117
+17          3            BB3      1175        2           2           615.00                                  WN090
+
+(17 row(s) affected)
+
+-- 4.
+
+CATEGORY_NUM CATEGORY_DESCRIPTION
+------------ -----------------------------------
+1            Plumbing                           
+2            Heating/Air Conditioning           
+3            Painting                           
+4            Electrical Systems                 
+5            Carpentry                          
+6            Janitorial                         
+7            Appliance Service                  
+8            Security Systems                   
+
+(8 row(s) affected)
+
+-- 5.
+
+SERVICE_ID  CONDO_ID    DESCRIPTION
+----------- ----------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1           2           Back wall in pantry has mold indicating water seepage. Diagnose and repair.                                                                                                                                                                                    
+2           5           Air conditioning doesn’t cool.                                                                                                                                                                                                                                 
+3           4           Hardwood floors must be refinished.                                                                                                                                                                                                                            
+4           1           Switches in kitchen and adjoining dining room are reversed.                                                                                                                                                                                                    
+5           2           Molding in pantry must be replaced.                                                                                                                                                                                                                            
+6           14          Unit needs to be repainted due to previous tenant damage.                                                                                                                                                                                                      
+7           11          Tenant complained that using microwave caused short circuits on two occasions.                                                                                                                                                                                 
+8           9           Kitchen must be repainted. Walls discolored due to kitchen fire.                                                                                                                                                                                               
+9           7           Shampoo all carpets.                                                                                                                                                                                                                                           
+10          9           Repair window sills.                                                                                                                                                                                                                                           
+11          17          Security system fails to change modes when reset.                                                                                                                                                                                                              
+12          15          Stove trips circuit breaker.                                                                                                                                                                                                                                   
+13          16          Air conditioning fan not circulating air.                                                                                                                                                                                                                      
+
+(13 row(s) affected)
+
+-- 6.
+
+SERVICE_ID  STATUS                                                                                                                                                                                                                                                          EST_HOURS
+----------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------
+1           Service rep has verified the problem. Plumbing contractor has been called.                                                                                                                                                                                      4.00
+2           Service rep has verified problem. Air conditioning contractor has been called.                                                                                                                                                                                  3.00
+3           Service call has been scheduled.                                                                                                                                                                                                                                8.00
+4           Open                                                                                                                                                                                                                                                            1.00
+5           Cannot schedule until water leak is corrected.                                                                                                                                                                                                                  2.00
+6           Scheduled                                                                                                                                                                                                                                                       7.00
+7           Service rep unable to duplicate problem. Tenant to notify condo management if problem recurs.                                                                                                                                                                   1.00
+8           Scheduled                                                                                                                                                                                                                                                       5.00
+9           Open                                                                                                                                                                                                                                                            5.00
+10          Scheduled                                                                                                                                                                                                                                                       4.00
+11          Open                                                                                                                                                                                                                                                            1.50
+12          Service rep has verified the problem. Appliance tech has been called.                                                                                                                                                                                           2.25
+13          Air conditioning contractor has been called.                                                                                                                                                                                                                    6.00
+
+(13 row(s) affected)
+
+-- 7.
+
+SERVICE_ID  SPENT_HOURS                             NEXT_SERVICE_DATE
+----------- --------------------------------------- -----------------
+1           2.00                                    2015-10-12
+2           1.00                                    2015-10-12
+3           0.00                                    2015-10-16
+4           0.00                                    2015-10-13
+5           0.00                                    NULL
+6           0.00                                    2015-10-19
+7           1.00                                    NULL
+8           0.00                                    2015-10-16
+9           0.00                                    2015-10-19
+10          0.00                                    2015-10-20
+11          0.00                                    2015-10-24
+12          1.25                                    NULL
+13          4.25                                    2015-10-31
+
+(13 row(s) affected)
+
+-- 8.
+
+OWNER_NUM LAST_NAME                 FIRST_NAME
+--------- ------------------------- -------------------------
+AD057     Adney                     Bruce and Jean           
+AN175     Anderson                  Bill                     
+BL720     Blake                     Jack                     
+EL025     Elend                     Bill and Sandy           
+FE182     Feenstra                  Daniel                   
+JU092     Juarez                    Maria                    
+KE122     Kelly                     Alyssa                   
+NO225     Norton                    Peter and Caitlin        
+RO123     Robinson                  Mike and Jane            
+SM072     Smeltz                    Jim and Cathy            
+TR222     Trent                     Michael                  
+WN090     Williamson                George                   
+WS032     Wilson                    Henry and Karen          
+YO117     Yoder                     Mark and Jane            
+ZO200     Zook                      Michael and Marsha       
+
+(15 row(s) affected)
+
+-- 9.
+
+LOCATION_NUM LOCATION_NAME
+------------ -------------------------
+2            Solmaris Bayside         
+3            Solmaris Seaside         
+
+(2 row(s) affected)
+
+-- 10.
+
+LAST_NAME                 FIRST_NAME                CITY
+------------------------- ------------------------- -------------------------
+Adney                     Bruce and Jean            Bowton                   
+Elend                     Bill and Sandy            BOWTON                   
+
+(2 row(s) affected)
+
+-- 11.
+
+LAST_NAME                 FIRST_NAME                CITY
+------------------------- ------------------------- -------------------------
+Anderson                  Bill                      Brunswick                
+Blake                     Jack                      Mills                    
+Feenstra                  Daniel                    Rivard                   
+Juarez                    Maria                     Kaleva                   
+Kelly                     Alyssa                    Norton                   
+Norton                    Peter and Caitlin         Lawndale                 
+Robinson                  Mike and Jane             Springs                  
+Smeltz                    Jim and Cathy             Lewiston                 
+Trent                     Michael                   Glander Bay              
+Williamson                George                    Wilmington               
+Wilson                    Henry and Karen           Lewiston                 
+Yoder                     Mark and Jane             Dover                    
+Zook                      Michael and Marsha        Rehoboth Beach           
+
+(13 row(s) affected)
+
+-- 12.
+
+LOCATION_NUM UNIT_NUM SQR_FT
+------------ -------- -----------
+1            102      675
+1            201      1030
+1            204      1164
+1            401      1030
+1            502      745
+2            A03      725
+2            A01      1084
+2            B01      1084
+2            C01      750
+3            CC2      1025
+3            BB3      1175
+
+(11 row(s) affected)
+
+-- 13.
+
+LOCATION_NUM UNIT_NUM BDRMS
+------------ -------- -----------
+1            306      3
+1            405      3
+1            503      3
+2            C06      3
+3            AA1      3
+
+(5 row(s) affected)
+
+-- 14.
+
+UNIT_NUM LOCATION_NUM BDRMS
+-------- ------------ -----------
+A01      2            2
+B01      2            2
+C02      2            2
+
+(3 row(s) affected)
+
+-- 15.
+
+CONDO_ID    CONDO_FEE
+----------- ---------------------------------------
+2           550.00
+3           625.00
+4           575.00
+5           625.00
+6           550.00
+16          575.00
+17          615.00
+
+(7 row(s) affected)
+
+-- 16.
+
+SERVICE_ID  NEXT_SERVICE_DATE
+----------- -----------------
+5           NULL
+7           NULL
+12          NULL
+
+(3 row(s) affected)
+
+-- 17.
+
+LOCATION_NUM UNIT_NUM CONDO_FEE
+------------ -------- ---------------------------------------
+1            102      475.00
+1            502      490.00
+
+(2 row(s) affected)
+
+-- 18.
+
+CONDO_ID    CATEGORY_NUM EST_HOURS                               ESTIMATED_COST
+----------- ------------ --------------------------------------- ---------------------------------------
+2           1            4.00                                    140.0000
+5           2            3.00                                    105.0000
+4           6            8.00                                    280.0000
+1           4            1.00                                    35.0000
+2           5            2.00                                    70.0000
+14          3            7.00                                    245.0000
+11          4            1.00                                    35.0000
+9           3            5.00                                    175.0000
+7           6            5.00                                    175.0000
+9           5            4.00                                    140.0000
+17          8            1.50                                    52.5000
+15          7            2.25                                    78.7500
+16          2            6.00                                    210.0000
+
+(13 row(s) affected)
+
+-- 19.
+
+OWNER_NUM LAST_NAME                 STATE
+--------- ------------------------- -----
+AD057     Adney                     FL
+AN175     Anderson                  GA
+BL720     Blake                     SC
+EL025     Elend                     FL
+FE182     Feenstra                  FL
+JU092     Juarez                    FL
+SM072     Smeltz                    FL
+TR222     Trent                     FL
+WS032     Wilson                    FL
+
+(9 row(s) affected)
+
+-- 20.
+
+LOCATION_NUM UNIT_NUM SQR_FT      CONDO_FEE
+------------ -------- ----------- ---------------------------------------
+1            102      675         475.00
+2            A03      725         190.00
+1            502      745         490.00
+2            C01      750         190.00
+3            CC2      1025        575.00
+1            401      1030        550.00
+1            201      1030        550.00
+2            A01      1084        235.00
+2            B01      1084        250.00
+1            204      1164        575.00
+3            BB3      1175        615.00
+2            C02      1245        250.00
+2            C06      1540        300.00
+1            405      1575        625.00
+1            306      1575        625.00
+1            503      1680        670.00
+3            AA1      2000        700.00
+
+(17 row(s) affected)
+
+-- 21.
+
+LOCATION_NUM ONE_BEDROOM_CONDOS
+------------ ------------------
+1            2
+2            2
+
+(2 row(s) affected)
+
+-- 22.
+
+TOTAL_FEES
+---------------------------------------
+7865.00
+
+(1 row(s) affected)
+
+-- 23.
+
+SERVICE_ID  DESCRIPTION
+----------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1           Back wall in pantry has mold indicating water seepage. Diagnose and repair.                                                                                                                                                                                    
+5           Molding in pantry must be replaced.                                                                                                                                                                                                                            
+
+(2 row(s) affected)
+
+-- 24.
+
+SERVICE_ID  CONDO_ID    CATEGORY_NUM DESCRIPTION                                                                                                                                                                                                                                                     STATUS                                                                                                                                                                                                                                                          EST_HOURS                               SPENT_HOURS                             NEXT_SERVICE_DATE
+----------- ----------- ------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------- --------------------------------------- -----------------
+1           2           1            Back wall in pantry has mold indicating water seepage. Diagnose and repair.                                                                                                                                                                                     Service rep has verified the problem. Plumbing contractor has been called.                                                                                                                                                                                      4.00                                    2.00                                    2015-10-12
+2           5           2            Air conditioning doesn’t cool.                                                                                                                                                                                                                                  Service rep has verified problem. Air conditioning contractor has been called.                                                                                                                                                                                  3.00                                    1.00                                    2015-10-12
+3           4           6            Hardwood floors must be refinished.                                                                                                                                                                                                                             Service call has been scheduled.                                                                                                                                                                                                                                8.00                                    0.00                                    2015-10-16
+4           1           4            Switches in kitchen and adjoining dining room are reversed.                                                                                                                                                                                                     Open                                                                                                                                                                                                                                                            1.00                                    0.00                                    2015-10-13
+6           14          3            Unit needs to be repainted due to previous tenant damage.                                                                                                                                                                                                       Scheduled                                                                                                                                                                                                                                                       7.00                                    0.00                                    2015-10-19
+8           9           3            Kitchen must be repainted. Walls discolored due to kitchen fire.                                                                                                                                                                                                Scheduled                                                                                                                                                                                                                                                       5.00                                    0.00                                    2015-10-16
+9           7           6            Shampoo all carpets.                                                                                                                                                                                                                                            Open                                                                                                                                                                                                                                                            5.00                                    0.00                                    2015-10-19
+10          9           5            Repair window sills.                                                                                                                                                                                                                                            Scheduled                                                                                                                                                                                                                                                       4.00                                    0.00                                    2015-10-20
+11          17          8            Security system fails to change modes when reset.                                                                                                                                                                                                               Open                                                                                                                                                                                                                                                            1.50                                    0.00                                    2015-10-24
+13          16          2            Air conditioning fan not circulating air.                                                                                                                                                                                                                       Air conditioning contractor has been called.                                                                                                                                                                                                                    6.00                                    4.25                                    2015-10-31
+
+(10 row(s) affected)
+
+-- 25.
+
+OWNER_NUM LAST_NAME                 ADDRESS
+--------- ------------------------- -------------------------
+AN175     Anderson                  18 Wilcox St.            
+BL720     Blake                     2672 Condor St.          
+JU092     Juarez                    892 Oak St.              
+KE122     Kelly                     527 Waters St.           
+WN090     Williamson                331 West 12th St.        
+WS032     Wilson                    25 Nichols St.           
+
+(6 row(s) affected)
+

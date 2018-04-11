@@ -1,0 +1,16 @@
+SQL queries
+A. SELECT `Team`,`Games`,`AB` FROM `teamstats`;
+
+B. SELECT `Team`,`Games`,`AB` FROM `teamstats` order by `Team`;
+
+C. SELECT `Team`,`Games`,`AB` FROM `teamstats` order by `Team`desc;
+
+D. SELECT `Team`, `HR`FROM `teamstats` order by `HR` limit 1;
+
+E. SELECT `Team`, `HR`FROM `teamstats` order by `HR`  DESC limit 1;
+
+F. SELECT `Team`, `HR`FROM `teamstats` WHERE `HR` > 10000;
+
+G. SELECT SUM(`Games`)FROM `teamstats`;
+
+H. SELECT AVG(`BattingAVG`) FROM `teamstats`;

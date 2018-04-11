@@ -1,0 +1,9 @@
+F:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\bin\Debug\ProjectedSalesInteractive.exe.config
+F:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\bin\Debug\ProjectedSalesInteractive.exe
+F:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\bin\Debug\ProjectedSalesInteractive.pdb
+F:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\obj\Debug\ProjectedSalesInteractive.exe
+F:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\obj\Debug\ProjectedSalesInteractive.pdb
+E:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\bin\Debug\ProjectedSalesInteractive.exe.config
+E:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\obj\Debug\ProjectedSalesInteractive.exe
+E:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\obj\Debug\ProjectedSalesInteractive.pdb
+E:\Chapter 2\ProjectedSalesInteractive\ProjectedSalesInteractive\obj\Debug\ProjectedSalesInteractive.csprojResolveAssemblyReference.cache

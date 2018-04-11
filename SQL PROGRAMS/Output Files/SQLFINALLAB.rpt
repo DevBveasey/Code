@@ -1,0 +1,373 @@
+﻿-- 1.
+
+LOCATION_NUM UNIT_NUM SQR_FT      OWNER_NUM
+------------ -------- ----------- ---------
+1            102      675         AD057
+1            201      1030        EL025
+1            401      1030        KE122
+1            502      745         JU092
+2            A03      725         TR222
+2            A01      1084        NO225
+2            B01      1084        SM072
+2            C01      750         AN175
+3            CC2      1025        YO117
+
+(9 row(s) affected)
+
+-- 2.
+
+LOCATION_NUM UNIT_NUM CONDO_FEE                               OWNER_NUM
+------------ -------- --------------------------------------- ---------
+1            201      550.00                                  EL025
+1            306      625.00                                  AN175
+1            204      575.00                                  BL720
+1            405      625.00                                  FE182
+1            401      550.00                                  KE122
+1            503      670.00                                  RO123
+3            AA1      700.00                                  ZO200
+3            CC2      575.00                                  YO117
+3            BB3      615.00                                  WN090
+
+(9 row(s) affected)
+
+-- 3.
+
+LOCATION_NUM UNIT_NUM SQR_FT      CONDO_FEE                               LAST_NAME
+------------ -------- ----------- --------------------------------------- -------------------------
+1            102      675         475.00                                  Adney                    
+1            201      1030        550.00                                  Elend                    
+1            306      1575        625.00                                  Anderson                 
+1            204      1164        575.00                                  Blake                    
+1            405      1575        625.00                                  Feenstra                 
+1            401      1030        550.00                                  Kelly                    
+1            502      745         490.00                                  Juarez                   
+1            503      1680        670.00                                  Robinson                 
+2            A03      725         190.00                                  Trent                    
+2            A01      1084        235.00                                  Norton                   
+2            B01      1084        250.00                                  Smeltz                   
+2            C01      750         190.00                                  Anderson                 
+2            C02      1245        250.00                                  Wilson                   
+2            C06      1540        300.00                                  Robinson                 
+3            AA1      2000        700.00                                  Zook                     
+3            CC2      1025        575.00                                  Yoder                    
+3            BB3      1175        615.00                                  Williamson               
+
+(17 row(s) affected)
+
+-- 4.
+
+LOCATION_NUM UNIT_NUM BDRMS       CONDO_FEE                               LAST_NAME
+------------ -------- ----------- --------------------------------------- -------------------------
+1            306      3           625.00                                  Anderson                 
+1            405      3           625.00                                  Feenstra                 
+1            503      3           670.00                                  Robinson                 
+3            AA1      3           700.00                                  Zook                     
+
+(4 row(s) affected)
+
+-- 5.
+
+AVERAGE_FEE
+---------------------------------------
+462.65
+
+(1 row(s) affected)
+
+-- 6.
+
+LOCATION_NUM UNIT_NUM FIRST_NAME                LAST_NAME                 STATE
+------------ -------- ------------------------- ------------------------- -----
+1            102      Bruce and Jean            Adney                     FL
+1            201      Bill and Sandy            Elend                     FL
+1            405      Daniel                    Feenstra                  FL
+1            502      Maria                     Juarez                    FL
+2            A03      Michael                   Trent                     FL
+2            B01      Jim and Cathy             Smeltz                    FL
+2            C02      Henry and Karen           Wilson                    FL
+
+(7 row(s) affected)
+
+-- 7.
+
+LOCATION_NUM UNIT_NUM FIRST_NAME                LAST_NAME                 STATE
+------------ -------- ------------------------- ------------------------- -----
+2            A01      Peter and Caitlin         Norton                    PA
+3            AA1      Michael and Marsha        Zook                      DE
+3            CC2      Mark and Jane             Yoder                     DE
+3            BB3      George                    Williamson                DE
+
+(4 row(s) affected)
+
+-- 8.
+
+SERVICE_ID  CONDO_ID    STATUS
+----------- ----------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4           1           Open                                                                                                                                                                                                                                                           
+9           7           Open                                                                                                                                                                                                                                                           
+11          17          Open                                                                                                                                                                                                                                                           
+
+(3 row(s) affected)
+
+-- 9.
+
+LOCATION_NUM UNIT_NUM CONDO_FEE                               OWNER_NUM FIRST_NAME                LAST_NAME
+------------ -------- --------------------------------------- --------- ------------------------- -------------------------
+1            102      475.00                                  AD057     Bruce and Jean            Adney                    
+1            201      550.00                                  EL025     Bill and Sandy            Elend                    
+1            306      625.00                                  AN175     Bill                      Anderson                 
+1            204      575.00                                  BL720     Jack                      Blake                    
+1            405      625.00                                  FE182     Daniel                    Feenstra                 
+1            401      550.00                                  KE122     Alyssa                    Kelly                    
+1            502      490.00                                  JU092     Maria                     Juarez                   
+1            503      670.00                                  RO123     Mike and Jane             Robinson                 
+2            A03      190.00                                  TR222     Michael                   Trent                    
+2            A01      235.00                                  NO225     Peter and Caitlin         Norton                   
+2            B01      250.00                                  SM072     Jim and Cathy             Smeltz                   
+2            C01      190.00                                  AN175     Bill                      Anderson                 
+2            C02      250.00                                  WS032     Henry and Karen           Wilson                   
+2            C06      300.00                                  RO123     Mike and Jane             Robinson                 
+3            AA1      700.00                                  ZO200     Michael and Marsha        Zook                     
+3            CC2      575.00                                  YO117     Mark and Jane             Yoder                    
+3            BB3      615.00                                  WN090     George                    Williamson               
+
+(17 row(s) affected)
+
+-- 10.
+
+CONDO_ID    DESCRIPTION                                                                                                                                                                                                                                                     STATUS                                                                                                                                                                                                                                                          CATEGORY_DESCRIPTION
+----------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------
+4           Hardwood floors must be refinished.                                                                                                                                                                                                                             Service call has been scheduled.                                                                                                                                                                                                                                Janitorial                         
+7           Shampoo all carpets.                                                                                                                                                                                                                                            Open                                                                                                                                                                                                                                                            Janitorial                         
+
+(2 row(s) affected)
+
+-- 11.
+
+CONDO_ID    LOCATION_NUM UNIT_NUM EST_HOURS                               SPENT_HOURS                             OWNER_NUM LAST_NAME                 CATEGORY_DESCRIPTION
+----------- ------------ -------- --------------------------------------- --------------------------------------- --------- ------------------------- -----------------------------------
+4           1            204      8.00                                    0.00                                    BL720     Blake                     Janitorial                         
+7           1            502      5.00                                    0.00                                    JU092     Juarez                    Janitorial                         
+
+(2 row(s) affected)
+
+-- 12.
+
+FIRST_NAME                LAST_NAME
+------------------------- -------------------------
+Bill                      Anderson                 
+Daniel                    Feenstra                 
+Mike and Jane             Robinson                 
+Michael and Marsha        Zook                     
+
+(4 row(s) affected)
+
+-- 13.
+
+FIRST_NAME                LAST_NAME
+------------------------- -------------------------
+Bill                      Anderson                 
+Daniel                    Feenstra                 
+Mike and Jane             Robinson                 
+Michael and Marsha        Zook                     
+
+(4 row(s) affected)
+
+-- 14.
+
+UNIT_NUM UNIT_NUM SQR_FT
+-------- -------- -----------
+201      401      1030
+306      405      1575
+A01      B01      1084
+
+(3 row(s) affected)
+
+-- 15.
+
+SQR_FT      OWNER_NUM LAST_NAME                 FIRST_NAME                LOCATION_NUM
+----------- --------- ------------------------- ------------------------- ------------
+675         AD057     Adney                     Bruce and Jean            1
+1030        EL025     Elend                     Bill and Sandy            1
+1575        AN175     Anderson                  Bill                      1
+1164        BL720     Blake                     Jack                      1
+1575        FE182     Feenstra                  Daniel                    1
+1030        KE122     Kelly                     Alyssa                    1
+745         JU092     Juarez                    Maria                     1
+1680        RO123     Robinson                  Mike and Jane             1
+
+(8 row(s) affected)
+
+-- 16.
+
+SQR_FT      OWNER_NUM LAST_NAME                 FIRST_NAME                LOCATION_NUM BDRMS
+----------- --------- ------------------------- ------------------------- ------------ -----------
+1575        AN175     Anderson                  Bill                      1            3
+1575        FE182     Feenstra                  Daniel                    1            3
+1680        RO123     Robinson                  Mike and Jane             1            3
+
+(3 row(s) affected)
+
+-- 17.
+
+LOCATION_NUM UNIT_NUM CONDO_FEE                               BDRMS
+------------ -------- --------------------------------------- -----------
+1            102      475.00                                  1
+1            201      550.00                                  2
+1            405      625.00                                  3
+1            502      490.00                                  1
+2            A03      190.00                                  1
+2            B01      250.00                                  2
+2            C01      190.00                                  1
+2            C02      250.00                                  2
+
+(8 row(s) affected)
+
+-- 18.
+
+LOCATION_NUM UNIT_NUM CONDO_FEE                               BDRMS
+------------ -------- --------------------------------------- -----------
+1            102      475.00                                  1
+1            502      490.00                                  1
+2            A03      190.00                                  1
+
+(3 row(s) affected)
+
+-- 19.
+
+LOCATION_NUM UNIT_NUM CONDO_FEE                               BDRMS
+------------ -------- --------------------------------------- -----------
+3            AA1      700.00                                  3
+3            CC2      575.00                                  2
+3            BB3      615.00                                  2
+
+(3 row(s) affected)
+
+-- 20.
+
+SERVICE_ID  CONDO_ID
+----------- -----------
+1           2
+2           5
+3           4
+6           14
+8           9
+9           7
+10          9
+12          15
+13          16
+
+(9 row(s) affected)
+
+-- 21.
+
+SERVICE_ID  CONDO_ID
+----------- -----------
+3           4
+6           14
+8           9
+9           7
+13          16
+
+(5 row(s) affected)
+
+-- 22.
+
+CONDO_ID    SQR_FT      OWNER_NUM SERVICE_ID  EST_HOURS                               SPENT_HOURS                             CATEGORY_NUM
+----------- ----------- --------- ----------- --------------------------------------- --------------------------------------- ------------
+1           675         AD057     4           1.00                                    0.00                                    4
+11          1084        SM072     7           1.00                                    1.00                                    4
+
+(2 row(s) affected)
+
+-- 23.
+
+CONDO_ID    SQR_FT      OWNER_NUM SERVICE_ID  EST_HOURS                               SPENT_HOURS                             CATEGORY_NUM
+----------- ----------- --------- ----------- --------------------------------------- --------------------------------------- ------------
+1           675         AD057     4           1.00                                    0.00                                    4
+2           1030        EL025     1           4.00                                    2.00                                    1
+2           1030        EL025     5           2.00                                    0.00                                    5
+3           1575        AN175     NULL        NULL                                    NULL                                    NULL
+4           1164        BL720     3           8.00                                    0.00                                    6
+5           1575        FE182     2           3.00                                    1.00                                    2
+6           1030        KE122     NULL        NULL                                    NULL                                    NULL
+7           745         JU092     9           5.00                                    0.00                                    6
+8           1680        RO123     NULL        NULL                                    NULL                                    NULL
+9           725         TR222     8           5.00                                    0.00                                    3
+9           725         TR222     10          4.00                                    0.00                                    5
+10          1084        NO225     NULL        NULL                                    NULL                                    NULL
+11          1084        SM072     7           1.00                                    1.00                                    4
+12          750         AN175     NULL        NULL                                    NULL                                    NULL
+13          1245        WS032     NULL        NULL                                    NULL                                    NULL
+14          1540        RO123     6           7.00                                    0.00                                    3
+15          2000        ZO200     12          2.25                                    1.25                                    7
+16          1025        YO117     13          6.00                                    4.25                                    2
+17          1175        WN090     11          1.50                                    0.00                                    8
+
+(19 row(s) affected)
+
+-- 24.
+
+OWNER_NUM UPPERCASE_FIRST           LOWERCASE_LAST
+--------- ------------------------- -------------------------
+AD057     BRUCE AND JEAN            adney                    
+AN175     BILL                      anderson                 
+BL720     JACK                      blake                    
+EL025     BILL AND SANDY            elend                    
+FE182     DANIEL                    feenstra                 
+JU092     MARIA                     juarez                   
+KE122     ALYSSA                    kelly                    
+NO225     PETER AND CAITLIN         norton                   
+RO123     MIKE AND JANE             robinson                 
+SM072     JIM AND CATHY             smeltz                   
+TR222     MICHAEL                   trent                    
+WN090     GEORGE                    williamson               
+WS032     HENRY AND KAREN           wilson                   
+YO117     MARK AND JANE             yoder                    
+ZO200     MICHAEL AND MARSHA        zook                     
+
+(15 row(s) affected)
+
+-- 25.
+
+OWNER_NUM FIRST_NAME                LAST_NAME                 CITY
+--------- ------------------------- ------------------------- -------------------------
+AD057     Bruce and Jean            Adney                     Bowton                   
+EL025     Bill and Sandy            Elend                     BOWTON                   
+
+(2 row(s) affected)
+
+-- 26.
+LOCATION_NUM UNIT_NUM OWNER_NUM LAST_NAME                 CONDO_FEE                               DISCOUNTED_FEE
+------------ -------- --------- ------------------------- --------------------------------------- ---------------------------------------
+1            102      AD057     Adney                     475.00                                  463.00000
+1            201      EL025     Elend                     550.00                                  536.00000
+1            306      AN175     Anderson                  625.00                                  609.00000
+1            204      BL720     Blake                     575.00                                  561.00000
+1            405      FE182     Feenstra                  625.00                                  609.00000
+1            401      KE122     Kelly                     550.00                                  536.00000
+1            502      JU092     Juarez                    490.00                                  478.00000
+1            503      RO123     Robinson                  670.00                                  653.00000
+2            A03      TR222     Trent                     190.00                                  185.00000
+2            A01      NO225     Norton                    235.00                                  229.00000
+2            B01      SM072     Smeltz                    250.00                                  244.00000
+2            C01      AN175     Anderson                  190.00                                  185.00000
+2            C02      WS032     Wilson                    250.00                                  244.00000
+2            C06      RO123     Robinson                  300.00                                  293.00000
+3            AA1      ZO200     Zook                      700.00                                  683.00000
+3            CC2      YO117     Yoder                     575.00                                  561.00000
+3            BB3      WN090     Williamson                615.00                                  600.00000
+
+(17 row(s) affected)
+
+-- 27.
+
+OWNER_NUM FIRST_NAME                LAST_NAME                 STATE
+--------- ------------------------- ------------------------- -----
+YO117     Mark and Jane             Yoder                     DE
+
+(1 row(s) affected)
+
+-- 28.
+
+2 A01 235.00 NO225
+2 B01 250.00 SM072

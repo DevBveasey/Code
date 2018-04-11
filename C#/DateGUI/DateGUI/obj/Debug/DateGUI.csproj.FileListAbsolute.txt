@@ -1,0 +1,9 @@
+E:\Chapter 10\DateGUI\DateGUI\bin\Debug\DateGUI.exe.config
+E:\Chapter 10\DateGUI\DateGUI\bin\Debug\DateGUI.exe
+E:\Chapter 10\DateGUI\DateGUI\bin\Debug\DateGUI.pdb
+E:\Chapter 10\DateGUI\DateGUI\obj\Debug\DateGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 10\DateGUI\DateGUI\obj\Debug\DateGUI.Form1.resources
+E:\Chapter 10\DateGUI\DateGUI\obj\Debug\DateGUI.Properties.Resources.resources
+E:\Chapter 10\DateGUI\DateGUI\obj\Debug\DateGUI.csproj.GenerateResource.Cache
+E:\Chapter 10\DateGUI\DateGUI\obj\Debug\DateGUI.exe
+E:\Chapter 10\DateGUI\DateGUI\obj\Debug\DateGUI.pdb

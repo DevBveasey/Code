@@ -1,0 +1,13 @@
+//Brandon Veasey
+//12/02/2015
+// Chapter 13 Test
+// Reading and processing String values from a text file
+
+public class Chap13test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

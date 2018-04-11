@@ -1,0 +1,9 @@
+E:\Exams\MidTermExamGUI\MidTermExamGUI\bin\Debug\MidTermExamGUI.exe.config
+E:\Exams\MidTermExamGUI\MidTermExamGUI\bin\Debug\MidTermExamGUI.exe
+E:\Exams\MidTermExamGUI\MidTermExamGUI\bin\Debug\MidTermExamGUI.pdb
+E:\Exams\MidTermExamGUI\MidTermExamGUI\obj\Debug\MidTermExamGUI.csprojResolveAssemblyReference.cache
+E:\Exams\MidTermExamGUI\MidTermExamGUI\obj\Debug\MidTermExamGUI.Form1.resources
+E:\Exams\MidTermExamGUI\MidTermExamGUI\obj\Debug\MidTermExamGUI.Properties.Resources.resources
+E:\Exams\MidTermExamGUI\MidTermExamGUI\obj\Debug\MidTermExamGUI.csproj.GenerateResource.Cache
+E:\Exams\MidTermExamGUI\MidTermExamGUI\obj\Debug\MidTermExamGUI.exe
+E:\Exams\MidTermExamGUI\MidTermExamGUI\obj\Debug\MidTermExamGUI.pdb

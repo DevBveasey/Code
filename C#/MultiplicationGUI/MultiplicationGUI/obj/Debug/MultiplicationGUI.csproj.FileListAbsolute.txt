@@ -1,0 +1,9 @@
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\bin\Debug\MultiplicationGUI.exe.config
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\bin\Debug\MultiplicationGUI.exe
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\bin\Debug\MultiplicationGUI.pdb
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\obj\Debug\MultiplicationGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\obj\Debug\MultiplicationGUI.Form1.resources
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\obj\Debug\MultiplicationGUI.Properties.Resources.resources
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\obj\Debug\MultiplicationGUI.csproj.GenerateResource.Cache
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\obj\Debug\MultiplicationGUI.exe
+E:\Chapter 7\MultiplicationGUI\MultiplicationGUI\obj\Debug\MultiplicationGUI.pdb

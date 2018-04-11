@@ -1,0 +1,112 @@
+/* Import the fonts from Google */
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
+/* Set the body font family as Arimo */
+body 
+{
+  font-family:'Arimo' !important;
+  background-color: #00994c;
+  color: white;
+}
+img
+{
+	width: auto;
+	height: auto;
+	margin: auto;
+	display: block;
+	max-height: 150px;
+}
+
+h1 
+{
+  font-size: 36px;
+  text-align: center;
+}
+/* Write your mobile styles here */
+.header
+{
+	background-color: #FCFCFC;
+}
+h2
+{
+	font-size: 32px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+h3
+{
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.gray
+{
+	background-color: #4A4A4A;
+	display: inline-block;
+}
+
+.row
+{
+	font-size: 16px;
+	padding: 5px;
+}
+.column
+{
+	float: left;
+}
+.enroll
+{
+	text-align: left;
+}
+.button
+{
+	color: white;
+	background-color: #3B6385;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+	margin: 10px 10px;
+}
+.footer
+{
+	padding: 10px;
+	text-align: center;
+	background-color: #4A4A4A;
+	opacity: .5%;
+}
+
+/* Write tablet / desktop styles here */
+@media only screen and (min-width:640px){
+
+/* Put all your desktop styles below this line -- inside of the media query */
+.gray
+{
+	background-color: #4A4A4A;
+	display: inline-block;
+	width: 100%;
+
+}
+.column
+{
+	max-width: 29%;
+}
+.row
+{
+	font-size: 16px;
+	padding: 5px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.enroll
+{
+	text-align: left;
+	max-width: 70%;
+	float: left;
+}
+.button
+{
+	padding: 5px 8px;
+	display: inline-block;
+}
+}

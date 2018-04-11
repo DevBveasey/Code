@@ -1,0 +1,9 @@
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\bin\Debug\QuartsToLitersGUI.exe.config
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\bin\Debug\QuartsToLitersGUI.exe
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\bin\Debug\QuartsToLitersGUI.pdb
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\obj\Debug\QuartsToLitersGUI.csprojResolveAssemblyReference.cache
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\obj\Debug\QuartsToLitersGUI.Form1.resources
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\obj\Debug\QuartsToLitersGUI.Properties.Resources.resources
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\obj\Debug\QuartsToLitersGUI.csproj.GenerateResource.Cache
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\obj\Debug\QuartsToLitersGUI.exe
+E:\Chapter 7\QuartsToLitersGUI\QuartsToLitersGUI\obj\Debug\QuartsToLitersGUI.pdb

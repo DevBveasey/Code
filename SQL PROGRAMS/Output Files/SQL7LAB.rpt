@@ -1,0 +1,337 @@
+﻿-- 1.
+
+CUSTOMER_NUM CUSTOMER_NAME                       BALANCE                                 CREDIT_LIMIT                            REP_NUM
+------------ ----------------------------------- --------------------------------------- --------------------------------------- -------
+260          Brookings Direct                    575.00                                  10000.00                                30
+586          Almondton General Store             3456.75                                 15000.00                                45
+713          Cress Store                         4234.60                                 10000.00                                15
+824          Kline's                             2475.99                                 15000.00                                30
+899          Toddler Toys                        1000.00                                 10000.00                                75
+903          Little People Gifts                 5975.25                                 15000.00                                65
+
+(6 row(s) affected)
+
+-- 2.
+
+CUSTOMER_NUM CUSTOMER_NAME                       BALANCE                                 CREDIT_LIMIT                            REP_NUM
+------------ ----------------------------------- --------------------------------------- --------------------------------------- -------
+502          Cards and More                      5025.75                                 5000.00                                 15
+
+(1 row(s) affected)
+
+-- 3.
+
+ITEM_NUM DESCRIPTION                    PRICE                                   ORDER_NUM ORDER_DATE NUM_ORDERED QUOTED_PRICE
+-------- ------------------------------ --------------------------------------- --------- ---------- ----------- ---------------------------------------
+CD33     Wood Block Set (48 piece)      89.49                                   51608     2015-10-12 5           86.99
+KL78     Pick Up Sticks                 10.95                                   51610     2015-10-12 25          10.95
+TR40     Tic Tac Toe                    13.99                                   51610     2015-10-12 10          13.99
+DL51     Classic Railway Set            107.95                                  51613     2015-10-13 5           104.95
+FD11     Rocking Horse                  124.95                                  51614     2015-10-13 1           124.95
+NL89     Wood Block Set (62 piece)      119.75                                  51617     2015-10-15 4           115.99
+TW35     Fire Engine                    118.95                                  51617     2015-10-15 3           116.95
+FD11     Rocking Horse                  124.95                                  51619     2015-10-15 2           121.95
+DR67     Giant Star Brain Teaser        31.95                                   51623     2015-10-15 5           29.95
+FH24     Puzzle Gift Set                38.95                                   51623     2015-10-15 12          36.95
+KD34     Pentominoes Brain Teaser       14.95                                   51623     2015-10-15 10          13.10
+MT03     Zauberkasten Brain Teaser      45.79                                   51625     2015-10-16 8           45.79
+WD16     Stack'em Tower                 49.95                                   51626     2015-10-16 1           45.95
+ZZ77     Pin The Tail                   19.99                                   51626     2015-10-16 2           17.99
+AQ22     Race Car                       79.79                                   51627     2015-10-17 2           74.79
+EL33     Army Tank                      125.25                                  51628     2015-10-17 1           120.25
+MV99     Lincoln Log Set                25.25                                   51628     2015-10-17 1           20.25
+WD16     Stack'em Tower                 49.95                                   51628     2015-10-17 1           44.95
+ZZ77     Pin The Tail                   19.99                                   51628     2015-10-17 1           14.99
+AQ22     Race Car                       79.79                                   51629     2015-10-17 2           75.99
+EL33     Army Tank                      125.25                                  51630     2015-10-18 1           125.25
+MV99     Lincoln Log Set                25.25                                   51631     2015-10-18 2           21.25
+ZZ77     Pin The Tail                   19.99                                   51631     2015-10-18 2           15.99
+WD16     Stack'em Tower                 49.95                                   51632     2015-10-19 1           49.95
+CD33     Wood Block Set (48 piece)      89.49                                   51633     2015-10-19 1           83.49
+KD34     Pentominoes Brain Teaser       14.95                                   51633     2015-10-19 1           12.95
+TR40     Tic Tac Toe                    13.99                                   51633     2015-10-19 2           10.99
+AH74     Patience                       22.99                                   51634     2015-10-19 1           22.99
+KL78     Pick Up Sticks                 10.95                                   51635     2015-10-19 3           8.95
+TR40     Tic Tac Toe                    13.99                                   51635     2015-10-19 3           10.99
+
+(30 row(s) affected)
+
+-- 4.
+
+ITEM_NUM DESCRIPTION                    ORDER_NUM QUOTED_PRICE
+-------- ------------------------------ --------- ---------------------------------------
+DL51     Classic Railway Set            51613     104.95
+FD11     Rocking Horse                  51614     124.95
+NL89     Wood Block Set (62 piece)      51617     115.99
+TW35     Fire Engine                    51617     116.95
+FD11     Rocking Horse                  51619     121.95
+EL33     Army Tank                      51628     120.25
+EL33     Army Tank                      51630     125.25
+NL89     Wood Block Set (62 piece)      51636     110.74
+EL33     Army Tank                      51637     121.25
+
+(9 row(s) affected)
+
+-- 5.
+
+ORDER_NUM TOTAL_AMOUNT
+--------- ---------------------------------------
+51617     16296.20
+51623     14483.00
+51613     10495.00
+51608     8699.00
+51610     8273.00
+51625     7326.40
+51619     4878.00
+51628     4008.80
+51629     3039.60
+51627     2991.60
+51630     2505.00
+51614     2499.00
+51633     2368.40
+51626     1638.60
+51631     1489.60
+51635     1196.40
+51632     999.00
+51634     459.80
+
+(18 row(s) affected)
+
+-- 6.
+
+REP_NUM LAST_NAME       COMMISSION
+------- --------------- ---------------------------------------
+15      Campos          23457.50
+30      Gradey          41317.00
+45      Tian            27789.25
+
+(3 row(s) affected)
+
+-- 7.
+
+CUSTOMER_NUM CUSTOMER_NAME                       CREDIT_LIMIT                            BALANCE
+------------ ----------------------------------- --------------------------------------- ---------------------------------------
+900          Classic Toys                        7500.00                                 0.00
+
+(1 row(s) affected)
+
+-- 8.
+
+ITEM_NUM DESCRIPTION                    CATEGORY PRICE
+-------- ------------------------------ -------- ---------------------------------------
+AQ22     Race Car                       TOY      79.79
+CD33     Wood Block Set (48 piece)      TOY      89.49
+DL51     Classic Railway Set            TOY      107.95
+DW23     Mancala                        GME      50.00
+EL33     Army Tank                      TOY      125.25
+FD11     Rocking Horse                  TOY      124.95
+KA12     Cribbage Set                   GME      75.00
+NL89     Wood Block Set (62 piece)      TOY      119.75
+TW35     Fire Engine                    TOY      118.95
+
+(9 row(s) affected)
+
+-- 9.
+
+ITEM_NUM DESCRIPTION                    ON_HAND
+-------- ------------------------------ -----------
+AH74     Patience                       9
+EL33     Army Tank                      10
+FD11     Rocking Horse                  8
+
+(3 row(s) affected)
+
+-- 10.
+
+ORDER_NUM ITEM_NUM NUM_ORDERED
+--------- -------- -----------
+51636     NL89     NULL
+51637     DR67     NULL
+51637     EL33     NULL
+
+(3 row(s) affected)
+
+-- 11.
+
+TRIP_ID     TRIP_NAME                                                                   START_LOCATION                                     STATE DISTANCE    MAX_GRP_SIZE TYPE                 SEASON
+----------- --------------------------------------------------------------------------- -------------------------------------------------- ----- ----------- ------------ -------------------- --------------------
+4           Bradbury Mountain Ride                                                      Lewiston-Auburn                                    ME    25          8            Biking               Early Fall          
+12          Cadillac Mountain Ride                                                      Bar Harbor                                         ME    8           16           Biking               Early Fall          
+25          Mount Battie Ride                                                           Camden                                             ME    20          8            Biking               Early Fall          
+33          Park Loop Ride                                                              Mount Desert Island                                ME    27          8            Biking               Late Spring         
+41          Westfield River Loop                                                        Fort Fairfield                                     ME    20          10           Biking               Late Spring         
+
+(5 row(s) affected)
+
+-- 12.
+
+RESERVATION_ID TRIP_ID     TRIP_DATE  CUSTOMER_NUM LAST_NAME                      FIRST_NAME                     PHONE
+-------------- ----------- ---------- ------------ ------------------------------ ------------------------------ ------------
+1600003        28          2016-09-12 103          Kasuma                         Sujata                         860-555-0703
+1600008        28          2016-09-12 108          Rulf                           Uschi                          814-555-5521
+1600009        38          2016-09-11 109          Caron                          Jean Luc                       207-555-9643
+1600011        3           2016-09-15 102          Ocean                          Arnold                         413-555-3212
+1600018        38          2016-09-18 126          Brown                          Brianne                        860-555-3234
+1600024        38          2016-09-11 121          Bretton-Borak                  Siam                           802-555-3443
+1600025        38          2016-09-11 125          Peterson                       Becca                          585-555-0900
+1600029        4           2016-09-19 120          Gernowski                      Sadie                          207-555-4507
+
+(8 row(s) affected)
+
+-- 13.
+
+STATE NUM_TRIPS
+----- -----------
+CT    3
+MA    4
+ME    13
+NH    20
+VT    6
+
+(5 row(s) affected)
+
+-- 14.
+
+FIRST_NAME      LAST_NAME       HIRE_DATE
+--------------- --------------- ----------
+Albert          Antione         2015-09-01
+Michael         Adams           2015-05-12
+David           Hastings        2015-03-09
+Gladys          Jarrell         2015-02-24
+Thomas          Jones           2015-03-09
+Teresa          Lomack          2015-06-14
+George          Martin          2015-02-20
+Ray             Marston         2015-09-14
+Ralph           Martin          2015-04-30
+Howard          Russell         2015-07-30
+Linda           Smith           2015-04-12
+Glory           Unser           2015-02-02
+
+(12 row(s) affected)
+
+-- 15.
+
+TRIP_ID     TRIP_NAME                                                                   TYPE                 SEASON
+----------- --------------------------------------------------------------------------- -------------------- --------------------
+1           Arethusa Falls                                                              Hiking               Summer              
+8           Black Pond                                                                  Hiking               Summer              
+9           Big Rock Cave                                                               Hiking               Summer              
+10          Mt. Cardigan - Firescrew                                                    Hiking               Summer              
+15          Crawford Path Presidentials Hike                                            Hiking               Summer              
+21          Long Pond                                                                   Hiking               Summer              
+24          Mt Adams                                                                    Hiking               Summer              
+30          McLennan Reservation Hike                                                   Hiking               Summer              
+39          Welch and Dickey Mountains Hike                                             Hiking               Summer              
+
+(9 row(s) affected)
+
+-- 16.
+
+TRIP_ID     TRIP_NAME                                                                   TYPE                 SEASON
+----------- --------------------------------------------------------------------------- -------------------- --------------------
+3           Mt Ascutney - West Peak                                                     Hiking               Early Fall          
+4           Bradbury Mountain Ride                                                      Biking               Early Fall          
+6           Blueberry Mountain                                                          Hiking               Early Fall          
+12          Cadillac Mountain Ride                                                      Biking               Early Fall          
+14          Cannon Mtn                                                                  Hiking               Early Fall          
+17          Huguenot Head Hike                                                          Hiking               Early Fall          
+18          Low Bald Spot Hike                                                          Hiking               Early Fall          
+25          Mount Battie Ride                                                           Biking               Early Fall          
+28          Mount Garfield Hike                                                         Hiking               Early Fall          
+37          Seal Beach Harbor                                                           Hiking               Early Spring        
+38          Sawyer River Ride                                                           Biking               Early Fall          
+40          Wachusett Mountain                                                          Hiking               Early Spring        
+43          Big Sky Mountain                                                            Hiking               Early Fall          
+44          Blackbird Forrest                                                           Biking               Early Fall          
+
+(14 row(s) affected)
+
+-- 17.
+
+NUM_CUSTOMERS
+-------------
+4
+
+(1 row(s) affected)
+
+-- 18.
+
+RESERVATION_ID TRIP_ID     NUM_PERSONS
+-------------- ----------- -----------
+1600032        42          NULL
+1600033        9           NULL
+1600036        46          NULL
+
+(3 row(s) affected)
+
+-- 19.
+
+AVERAGE_DISTANCE
+----------------
+12
+
+(1 row(s) affected)
+
+-- 20.
+
+RESERVATION_ID TRIP_ID     OTHER_FEES
+-------------- ----------- ---------------------------------------
+1600001        40          0.00
+1600002        21          0.00
+1600003        28          0.00
+1600005        39          0.00
+1600008        28          0.00
+1600010        2           0.00
+1600011        3           0.00
+1600012        1           0.00
+1600015        10          0.00
+1600026        12          0.00
+1600033        9           0.00
+1600036        46          0.00
+
+(12 row(s) affected)
+
+-- 21.
+
+TABLE_CATALOG                                                                                                                    TABLE_SCHEMA                                                                                                                     TABLE_NAME                                                                                                                       TABLE_TYPE
+-------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- ----------
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          AVG_PADDLING_DISTANCE                                                                                                            VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          BAL_GT_CREDIT_LIMIT                                                                                                              VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          CONDO_UNIT                                                                                                                       BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          CURRENT_HIRES                                                                                                                    VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          CUSTOMER                                                                                                                         BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          CUSTOMERS                                                                                                                        BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          EARLY_SEASON_TRIPS                                                                                                               VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          EXPENSIVE_ITEMS                                                                                                                  VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          GUIDE                                                                                                                            BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          HIGH_COMMISSION                                                                                                                  VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          ITEM                                                                                                                             BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          ITEM_ORDER                                                                                                                       VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          LOCATION                                                                                                                         BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          LOW_ON_HAND                                                                                                                      VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          MAINE_BIKING_TRIPS                                                                                                               VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          MAJOR_CUSTOMER                                                                                                                   VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          NONGAME                                                                                                                          BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          NULL_ORDERED                                                                                                                     VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          NULL_PERSONS                                                                                                                     VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          NUM_CONN_CUSTOMERS                                                                                                               VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          ORDER_LINE                                                                                                                       BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          ORDER_TOTAL                                                                                                                      VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          ORDERS                                                                                                                           BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          OWNER                                                                                                                            BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          PADDLING                                                                                                                         BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          QUOTED_PRICE_GT_100                                                                                                              VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          REP                                                                                                                              BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          RESERVATION                                                                                                                      BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          SEPT_RESERVATION_CUSTOMER                                                                                                        VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          SERVICE_CATEGORY                                                                                                                 BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          SERVICE_REQUEST                                                                                                                  BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          SUMMER_HIKING_TRIPS                                                                                                              VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          TRIP                                                                                                                             BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          TRIP_COUNT                                                                                                                       VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          TRIP_GUIDES                                                                                                                      BASE TABLE
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          ZERO_BALANCE                                                                                                                     VIEW
+BVEASEY                                                                                                                          BVEASEY                                                                                                                          ZERO_FEES                                                                                                                        VIEW
+
+(37 row(s) affected)
+
